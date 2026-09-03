@@ -1,0 +1,593 @@
+<!DOCTYPE html>
+
+<html lang="es"><head><meta charset="utf-8"/><meta content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no, viewport-fit=cover" name="viewport"/><link href="https://fonts.googleapis.com" rel="preconnect"/><link crossorigin="" href="https://fonts.gstatic.com" rel="preconnect"/><link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:ital,wght@0,400;0,600;0,700;0,800;1,400&amp;display=swap" rel="stylesheet"/><link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" rel="stylesheet"/>
+<link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:wght,FILL@100..700,0..1&amp;display=swap" rel="stylesheet"/><style>@layer base{html,body{width:100vw;margin:0;padding:0;}body{overscroll-behavior:none;font-family:'Plus Jakarta Sans',sans-serif;}.pb-safe{padding-bottom:env(safe-area-inset-bottom,0px);}.pt-safe{padding-top:env(safe-area-inset-top,0px);}main>:first-child{margin-top:0!important;}main>:last-child{margin-bottom:0!important;}}::-webkit-scrollbar{display:none;}</style><script src="https://cdn.tailwindcss.com"></script><script id="tailwind-config">tailwind.config = {"darkMode":"class","theme":{"extend":{"colors":{"on-primary-fixed":"#00201f","surface-dim":"#dadad9","on-background":"#1a1c1c","inverse-primary":"#77d6d2","on-surface":"#1a1c1c","outline-variant":"#bdc9c8","surface-container-highest":"#e2e2e2","surface-tint":"#006a67","tertiary-container":"#6a7777","inverse-surface":"#2f3131","on-tertiary":"#ffffff","on-primary-fixed-variant":"#00504e","secondary-fixed-dim":"#67d8d3","on-surface-variant":"#3e4948","surface-container":"#eeeeed","on-tertiary-fixed-variant":"#3c4949","tertiary-fixed":"#d7e5e4","error":"#ba1a1a","error-container":"#ffdad6","primary-fixed-dim":"#77d6d2","on-secondary":"#ffffff","on-tertiary-container":"#f3fffe","on-tertiary-fixed":"#111e1d","tertiary-fixed-dim":"#bbc9c8","on-primary-container":"#f3fffd","surface":"#f9f9f9","surface-variant":"#e2e2e2","inverse-on-surface":"#f1f1f0","surface-container-lowest":"#ffffff","surface-container-low":"#f4f3f3","secondary":"#006a67","outline":"#6e7978","on-primary":"#ffffff","on-secondary-container":"#00706e","on-error":"#ffffff","on-error-container":"#93000a","secondary-fixed":"#85f5f0","primary-fixed":"#94f3ee","on-secondary-fixed-variant":"#00504e","on-secondary-fixed":"#00201f","primary":"#006765","surface-bright":"#f9f9f9","tertiary":"#515e5e","surface-container-high":"#e8e8e8","background":"#f9f9f9","primary-container":"#0b827f","secondary-container":"#85f5f0"},"borderRadius":{"DEFAULT":"0.25rem","lg":"0.5rem","xl":"0.75rem","full":"9999px"},"spacing":{"gutter-mobile":"1rem","space-2xl":"3rem","space-4xl":"6rem","space-3xl":"4rem","gutter-desktop":"1.5rem","space-lg":"1.5rem","space-sm":"0.75rem","space-2xs":"0.25rem","space-xl":"2rem","space-3xs":"0.125rem","container-max":"80rem","space-xs":"0.5rem","space-md":"1rem"},"fontFamily":{"headline-sm":["Plus Jakarta Sans"],"body-sm":["Plus Jakarta Sans"],"price-md":["Plus Jakarta Sans"],"headline-md":["Plus Jakarta Sans"],"headline-xl-mobile":["Plus Jakarta Sans"],"price-lg":["Plus Jakarta Sans"],"label-lg":["Plus Jakarta Sans"],"body-lg":["Plus Jakarta Sans"],"body-md":["Plus Jakarta Sans"],"headline-xl":["Plus Jakarta Sans"],"display-lg":["Plus Jakarta Sans"],"label-md":["Plus Jakarta Sans"],"headline-lg":["Plus Jakarta Sans"],"label-sm":["Plus Jakarta Sans"],"display-lg-mobile":["Plus Jakarta Sans"]},"fontSize":{"headline-sm":["18px",{"lineHeight":"24px","fontWeight":"600"}],"body-sm":["12px",{"lineHeight":"18px","fontWeight":"400"}],"price-md":["20px",{"lineHeight":"26px","fontWeight":"700"}],"headline-md":["20px",{"lineHeight":"28px","fontWeight":"600"}],"headline-xl-mobile":["26px",{"lineHeight":"34px","letterSpacing":"-0.015em","fontWeight":"700"}],"price-lg":["28px",{"lineHeight":"34px","letterSpacing":"-0.01em","fontWeight":"800"}],"label-lg":["14px",{"lineHeight":"20px","letterSpacing":"0.01em","fontWeight":"600"}],"body-lg":["16px",{"lineHeight":"26px","fontWeight":"400"}],"body-md":["14px",{"lineHeight":"22px","fontWeight":"400"}],"headline-xl":["36px",{"lineHeight":"44px","letterSpacing":"-0.015em","fontWeight":"700"}],"display-lg":["48px",{"lineHeight":"56px","letterSpacing":"-0.02em","fontWeight":"800"}],"label-md":["12px",{"lineHeight":"16px","letterSpacing":"0.02em","fontWeight":"700"}],"headline-lg":["24px",{"lineHeight":"32px","letterSpacing":"-0.01em","fontWeight":"700"}],"label-sm":["11px",{"lineHeight":"14px","letterSpacing":"0.03em","fontWeight":"700"}],"display-lg-mobile":["32px",{"lineHeight":"40px","letterSpacing":"-0.02em","fontWeight":"800"}]}}}};</script><style>
+    body {
+      min-height: max(884px, 100dvh);
+    }
+  </style>
+  </head><body class="bg-surface-container-lowest text-on-surface font-body-md flex flex-col min-h-screen"><header class="fixed top-0 w-full z-50 pt-safe bg-surface-container-lowest/85 backdrop-blur-xl shadow-[0_1px_12px_rgba(0,103,101,0.06)]"><div class="h-16 px-gutter-mobile flex items-center justify-between gap-space-sm"><div class="flex items-center gap-space-xs"><div class="w-10 h-10 rounded-full overflow-hidden bg-surface-container-low flex items-center justify-center"><img alt="Profile" class="w-8 h-8 rounded-full object-cover" src="https://lh3.googleusercontent.com/aida/AEtjO1VYJwOI_zXEqtHApFyE4oOoJBT3N-ubo2VXwllcuTz637Jt96CmQOAEEXe2OgqtAq5i0YuxgVN3SZrqxRasCqYMLnjb_Wp2bM1vufOcMwBYfEoUVNao3uZN4hWsvUnSN2q2bKJV4tIrp54IBWV1UYnzyush8X-XNFe8fF3otJVqgGZrvh1B5WEK2d9jDSZ9wMVUicIj2D1_8Oz_QFKGz-U8nKIS3TPk6Bw3HMdJrK3vFOsnjdYmLh6S8p9F-cNudcd-HUUneGAKfWU"/></div><div class="flex flex-col"><span class="font-label-md text-label-md text-primary tracking-wide leading-none">FAN DEL MATE</span><span class="font-label-sm text-label-sm text-on-surface-variant font-normal">Inicio</span></div></div><div class="flex items-center gap-space-2xs"><button aria-label="Buscar" class="w-11 h-11 flex items-center justify-center text-on-surface hover:text-primary transition-colors rounded-full"><span class="material-symbols-outlined text-[24px]">search</span></button><a aria-label="Carrito de compras" class="w-11 h-11 flex items-center justify-center text-on-surface hover:text-primary transition-colors relative rounded-full" data-path="carrito" href="#"><span class="material-symbols-outlined text-[24px]">shopping_bag</span><span class="absolute top-2 right-2 min-w-[18px] h-[18px] px-1 bg-primary text-on-primary font-label-sm text-[10px] leading-[18px] text-center rounded-full font-bold flex items-center justify-center">3</span></a></div></div></header><main class="flex-1 flex flex-col relative w-full pt-16 pb-24 bg-surface-container-lowest"><div class="flex flex-col w-full overflow-hidden">
+<!-- 1. Hero Carrusel Interactivo -->
+<section class="relative w-full px-gutter-mobile pt-space-xs pb-space-sm" id="carousel-section">
+<div class="relative w-full aspect-[16/10] max-h-[380px] rounded-xl overflow-hidden bg-surface-container shadow-md">
+<!-- Slides Container -->
+<div class="flex w-full h-full transition-transform duration-500 ease-out" id="hero-slider" style="transform: translateX(0%);">
+<!-- Slide 1: Mates Camionero Algarrobo -->
+<div class="w-full h-full flex-shrink-0 relative overflow-hidden flex items-end p-space-md">
+<div class="absolute inset-0 bg-cover bg-center" data-alt="Rustic premium handcrafted mate camionero made of rich algarrobo wood with polished alpaca metal rim standing on a clean studio surface with soft natural lighting and warm organic tones." style="background-image: url('https://lh3.googleusercontent.com/aida-public/AB6AXuBTDjnhamG2--rFOn_POQ-ZjOl1kVqIJubDcENLzFk4A4diKk5gBSPD1ebroXNed7I1qptKSGpjX0jGOOmtIG7KvnYm0QJb0c8pfT6L4K9ESn3zDdg93w_VkKX-T2EMUh0LePIIoCz_58cLWHkHg_UDbPgRcbt40TSyTJzsqmV286iGjgXbXj5KmPw2xi0dNVGCOYycPc4hViNTy13U3uu8T1TP62xCgYXOKA-7_r3Ordku0qJDQmCRTw')"></div>
+<div class="absolute inset-0 bg-gradient-to-t from-on-surface/90 via-on-surface/40 to-transparent"></div>
+<div class="relative z-10 flex flex-col items-start gap-space-2xs text-on-tertiary">
+<span class="bg-secondary-container text-on-secondary-fixed font-label-sm text-label-sm px-2.5 py-1 rounded-full uppercase tracking-wider">Nuevo Ingreso</span>
+<h2 class="font-headline-xl-mobile text-headline-xl-mobile text-on-primary font-bold drop-shadow-sm">Mates Camionero Algarrobo</h2>
+<p class="font-body-sm text-body-sm text-surface-container-highest max-w-[260px]">Madera seleccionada con virola de alpaca maciza cincelada a mano.</p>
+<a class="mt-space-2xs inline-flex items-center gap-1.5 bg-primary hover:bg-primary-container text-on-primary font-label-lg text-label-lg px-4 py-2 rounded-lg shadow-sm transition-transform active:scale-95" href="#">
+<span>Explorar Colección</span>
+<span class="material-symbols-outlined text-[18px]">arrow_forward</span>
+</a>
+</div>
+</div>
+<!-- Slide 2: Combos Materos con Cuotas -->
+<div class="w-full h-full flex-shrink-0 relative overflow-hidden flex items-end p-space-md">
+<div class="absolute inset-0 bg-cover bg-center" data-alt="Curated premium mate gift set including a leather wrapped torpedo mate gourd, flat surgical steel bombilla, and stainless steel thermos arranged neatly on an immaculate white marble countertop." style="background-image: url('https://lh3.googleusercontent.com/aida-public/AB6AXuA2YLuunY2AMaF3XW-4z0TKvmesvGL7uysIq5bGBZzWy9ixEL0O0HxgfvaUq4JRJTCkJf0cRD57mGG24KQb6DGZlBP9Dg20n4Vni-Y3g5e5R_Cd5XdZFbGHQrxurnTvOu6Y8omAC9x23dsGXtrGAe38a63z6PmyyediPgN5l2mEhDdprZnpzFFcQaXq9lvWZwZA84Mj4Ls6xMXj9h7j7dE8RE_1dg9JTsYGC17RBOA9sP1KM-r1CUHJLg')"></div>
+<div class="absolute inset-0 bg-gradient-to-t from-on-surface/90 via-on-surface/40 to-transparent"></div>
+<div class="relative z-10 flex flex-col items-start gap-space-2xs text-on-tertiary">
+<span class="bg-primary-fixed text-on-primary-fixed font-label-sm text-label-sm px-2.5 py-1 rounded-full uppercase tracking-wider">3 y 6 Cuotas Sin Interés</span>
+<h2 class="font-headline-xl-mobile text-headline-xl-mobile text-on-primary font-bold drop-shadow-sm">Combos Materos Completos</h2>
+<p class="font-body-sm text-body-sm text-surface-container-highest max-w-[260px]">Mate imperial, bombilla pico de loro y bolso matero de cuero.</p>
+<a class="mt-space-2xs inline-flex items-center gap-1.5 bg-primary hover:bg-primary-container text-on-primary font-label-lg text-label-lg px-4 py-2 rounded-lg shadow-sm transition-transform active:scale-95" href="#">
+<span>Ver Promociones</span>
+<span class="material-symbols-outlined text-[18px]">local_mall</span>
+</a>
+</div>
+</div>
+<!-- Slide 3: Envíos a todo el país -->
+<div class="w-full h-full flex-shrink-0 relative overflow-hidden flex items-end p-space-md">
+<div class="absolute inset-0 bg-cover bg-center" data-alt="Argentine artisan packing a handcrafted leather mate and straw into an elegant eco-friendly box with branded wrapping paper and custom wax seal." style="background-image: url('https://lh3.googleusercontent.com/aida-public/AB6AXuA5rxUGLAbuIp_tbE2H4YrOynw3GtWYQmQZpiiKgd59XDMBkuEG_slYWAk6pEcl48z_tE_4irl57MelRX7JBnoJkA8T1zssezRhM_L73dCgvxP_et8-fQeVY9bKI_1FUG06R7jjYwOqkSWDdyBjfLjw4BppAg_ud3Lc9RFJeG3L8Bgl_l_Pa5I8eU_hsUZ2_ARki33Y6FUSbyGQM02sac8UArZIGNocI5odual0wmzhhvJHnC806vb1iQ')"></div>
+<div class="absolute inset-0 bg-gradient-to-t from-on-surface/90 via-on-surface/40 to-transparent"></div>
+<div class="relative z-10 flex flex-col items-start gap-space-2xs text-on-tertiary">
+<span class="bg-secondary-fixed text-on-secondary-fixed font-label-sm text-label-sm px-2.5 py-1 rounded-full uppercase tracking-wider">Llegamos a tu Puerta</span>
+<h2 class="font-headline-xl-mobile text-headline-xl-mobile text-on-primary font-bold drop-shadow-sm">Envíos a Todo el País</h2>
+<p class="font-body-sm text-body-sm text-surface-container-highest max-w-[260px]">Despachamos en 24hs por Correo Argentino y Andreani seguro.</p>
+<a class="mt-space-2xs inline-flex items-center gap-1.5 bg-primary hover:bg-primary-container text-on-primary font-label-lg text-label-lg px-4 py-2 rounded-lg shadow-sm transition-transform active:scale-95" href="#">
+<span>Calcular Envío</span>
+<span class="material-symbols-outlined text-[18px]">local_shipping</span>
+</a>
+</div>
+</div>
+</div>
+<!-- Quick Nav Buttons -->
+<button aria-label="Anterior slide" class="absolute left-2.5 top-1/2 -translate-y-1/2 w-8 h-8 rounded-full bg-surface-container-lowest/80 text-on-surface backdrop-blur-md flex items-center justify-center shadow-sm hover:bg-surface-container-lowest active:scale-90 transition-all" id="prev-slide-btn">
+<span class="material-symbols-outlined text-[18px]">chevron_left</span>
+</button>
+<button aria-label="Siguiente slide" class="absolute right-2.5 top-1/2 -translate-y-1/2 w-8 h-8 rounded-full bg-surface-container-lowest/80 text-on-surface backdrop-blur-md flex items-center justify-center shadow-sm hover:bg-surface-container-lowest active:scale-90 transition-all" id="next-slide-btn">
+<span class="material-symbols-outlined text-[18px]">chevron_right</span>
+</button>
+<!-- Slide Dots -->
+<div class="absolute bottom-2.5 right-3 flex items-center gap-1.5 z-20">
+<button aria-label="Slide 1" class="carousel-dot w-5 h-1.5 rounded-full bg-surface-container-lowest transition-all duration-300" data-index="0"></button>
+<button aria-label="Slide 2" class="carousel-dot w-2 h-1.5 rounded-full bg-surface-container-lowest/50 transition-all duration-300" data-index="1"></button>
+<button aria-label="Slide 3" class="carousel-dot w-2 h-1.5 rounded-full bg-surface-container-lowest/50 transition-all duration-300" data-index="2"></button>
+</div>
+</div>
+</section>
+<!-- 2. Banner de Beneficios Deslizable -->
+<section class="w-full py-space-xs bg-surface-container-low">
+<div class="flex items-center gap-space-sm overflow-x-auto px-gutter-mobile no-scrollbar scroll-smooth">
+<!-- Beneficio 1 -->
+<div class="flex items-center gap-space-xs min-w-[210px] bg-surface-container-lowest p-space-xs rounded-lg shadow-sm">
+<div class="w-9 h-9 rounded-full bg-primary-fixed flex items-center justify-center text-on-primary-fixed flex-shrink-0">
+<span class="material-symbols-outlined text-[20px]">credit_card</span>
+</div>
+<div class="flex flex-col">
+<span class="font-label-md text-label-md text-on-surface font-bold">3 y 6 Cuotas Sin Interés</span>
+<span class="font-body-sm text-[11px] text-on-surface-variant">Con todas las tarjetas</span>
+</div>
+</div>
+<!-- Beneficio 2 -->
+<div class="flex items-center gap-space-xs min-w-[210px] bg-surface-container-lowest p-space-xs rounded-lg shadow-sm">
+<div class="w-9 h-9 rounded-full bg-secondary-fixed flex items-center justify-center text-on-secondary-fixed flex-shrink-0">
+<span class="material-symbols-outlined text-[20px]">local_shipping</span>
+</div>
+<div class="flex flex-col">
+<span class="font-label-md text-label-md text-on-surface font-bold">Envío Gratis desde $45.000</span>
+<span class="font-body-sm text-[11px] text-on-surface-variant">A toda la República Argentina</span>
+</div>
+</div>
+<!-- Beneficio 3 -->
+<div class="flex items-center gap-space-xs min-w-[210px] bg-surface-container-lowest p-space-xs rounded-lg shadow-sm">
+<div class="w-9 h-9 rounded-full bg-primary-fixed flex items-center justify-center text-on-primary-fixed flex-shrink-0">
+<span class="material-symbols-outlined text-[20px]">account_balance_wallet</span>
+</div>
+<div class="flex flex-col">
+<span class="font-label-md text-label-md text-on-surface font-bold">Mercado Pago y Transferencia</span>
+<span class="font-body-sm text-[11px] text-on-surface-variant">15% OFF abonando por CBU</span>
+</div>
+</div>
+<!-- Beneficio 4 -->
+<div class="flex items-center gap-space-xs min-w-[210px] bg-surface-container-lowest p-space-xs rounded-lg shadow-sm">
+<div class="w-9 h-9 rounded-full bg-secondary-fixed flex items-center justify-center text-on-secondary-fixed flex-shrink-0">
+<span class="material-symbols-outlined text-[20px]">support_agent</span>
+</div>
+<div class="flex flex-col">
+<span class="font-label-md text-label-md text-on-surface font-bold">Atención por WhatsApp</span>
+<span class="font-body-sm text-[11px] text-on-surface-variant">Te asesoramos con tu mate ideal</span>
+</div>
+</div>
+</div>
+</section>
+<!-- 3. Categorías Destacadas (Pills / Círculos Deslizantes) -->
+<section class="w-full pt-space-md pb-space-sm px-gutter-mobile">
+<div class="flex items-center justify-between mb-space-sm">
+<div class="flex flex-col">
+<span class="font-label-sm text-label-sm text-primary uppercase font-bold tracking-wider">Explorá por Tipo</span>
+<h3 class="font-headline-sm text-headline-sm text-on-surface">Nuestras Categorías</h3>
+</div>
+<a class="font-label-sm text-label-sm text-primary hover:underline flex items-center gap-0.5" href="#">
+<span>Ver todas</span>
+<span class="material-symbols-outlined text-[16px]">chevron_right</span>
+</a>
+</div>
+<!-- Scroll horizontal categorías -->
+<div class="flex items-start gap-space-sm overflow-x-auto pb-space-2xs no-scrollbar">
+<!-- Cat 1 -->
+<a class="flex flex-col items-center gap-1.5 flex-shrink-0 group w-[74px]" href="#">
+<div class="w-16 h-16 rounded-full overflow-hidden bg-surface-container-low shadow-sm group-hover:scale-105 group-active:scale-95 transition-transform flex items-center justify-center">
+<img class="w-full h-full object-cover" data-alt="Artisanal mate imperial with wide chiseled alpaca metal ferrule and premium dark leather wrapping photographed on clean studio background." src="https://lh3.googleusercontent.com/aida-public/AB6AXuBWgVV9kzix5py7PrrKQuZrObfUeGR8EjnbD_R4Q65anfqyZimrpu120nDplG5JvIWFNVM3-tOIbKcQK4BJyX208-jUQ-X_7Py1sR2PoHs6vFW9CofWM-Ssn1ljLBMJdren2xI12iHaz2CrzR2h6zLNXNX9g_RQmD94cWrFcrv4af2a_9ojPBhent4YuuDnRk2FVK2ofKqNhFkbauJ81rt_0I5YMx0763HLiGrD5HKqj9e5zm7UOOucvg"/>
+</div>
+<span class="font-label-sm text-[11px] text-center text-on-surface leading-tight font-medium group-hover:text-primary">Mates Imperiales</span>
+</a>
+<!-- Cat 2 -->
+<a class="flex flex-col items-center gap-1.5 flex-shrink-0 group w-[74px]" href="#">
+<div class="w-16 h-16 rounded-full overflow-hidden bg-surface-container-low shadow-sm group-hover:scale-105 group-active:scale-95 transition-transform flex items-center justify-center">
+<img class="w-full h-full object-cover" data-alt="Sturdy torpedo mate gourd covered in rich brown cowhide with silver metal brim isolated on pure white surface." src="https://lh3.googleusercontent.com/aida-public/AB6AXuAbPLsQdL_BbXzeuBkFWwMLrnGX8qzfVZv0_jp6Dz2Xt3kNaw1AQerhtdvOUtC_d_T9mI9dfQjs64V_wTFMFw9gJtjY077f-wDPWGwNKTycYdhGkSYAjXuP-4VTbCkSWbt38Il4h1DK2vCY7-PM1ugi2DVLe-ieb3Xoui7gOzf_csBbU8zl4e2j_08fFosH00xgdBumzlhJwftvw-kNgOylQYSDmxpvL4e9M63t4OXADHibDz5PTDq3kg"/>
+</div>
+<span class="font-label-sm text-[11px] text-center text-on-surface leading-tight font-medium group-hover:text-primary">Torpedos</span>
+</a>
+<!-- Cat 3 -->
+<a class="flex flex-col items-center gap-1.5 flex-shrink-0 group w-[74px]" href="#">
+<div class="w-16 h-16 rounded-full overflow-hidden bg-surface-container-low shadow-sm group-hover:scale-105 group-active:scale-95 transition-transform flex items-center justify-center">
+<img class="w-full h-full object-cover" data-alt="Traditional handcrafted alpaca bombilla drinking straw with carved leaf details and wide spoon filter on white studio setup." src="https://lh3.googleusercontent.com/aida-public/AB6AXuD9c-9lc2AgRYooTLvCTLtNQ3yGECQP_tU5hdMd-0of8qxc1lAbYJVZnf1mOnUEVZe92bU9GpMT2RTnXu8g3-uytPBMy0aQihqXrIcF4XrRBbwWKoZjNKFqUfnxy1NPk6H8qsNfHS73-ibrsuWO_vD_6GHVwkhetfBirj20gpGQs3NtTsJasowcs-tqEm69bwAdVc1avnJ6re1XroBuc-0EuNobHVhRdBLbQGXIznbZ9flMRUPfiuwI7g"/>
+</div>
+<span class="font-label-sm text-[11px] text-center text-on-surface leading-tight font-medium group-hover:text-primary">Bombillas Alpaca</span>
+</a>
+<!-- Cat 4 -->
+<a class="flex flex-col items-center gap-1.5 flex-shrink-0 group w-[74px]" href="#">
+<div class="w-16 h-16 rounded-full overflow-hidden bg-surface-container-low shadow-sm group-hover:scale-105 group-active:scale-95 transition-transform flex items-center justify-center">
+<img class="w-full h-full object-cover" data-alt="Thermal stainless steel green vacuum insulated thermos with custom laser engraved logo standing elegantly." src="https://lh3.googleusercontent.com/aida-public/AB6AXuBH7T-hLi2wWnIwAbWzBk2l-TGPPWFO9oTQDTGll0sYIeV-02gdJpBCeoAn9dpSbI9-EmOO9gNJMGdlGmltaKxu1M0V9zfxdX7SY5qxcq406N7VDzRMQEcaq67MYXmxAm-opaxmmf5XkVyZkit8DolA00in7THbN44m17IeycG9Go3bpcROY03jZj0yA-r563k_Pjr-XIlN72Qz2Gp0d9mQSyTChbpty3ioGtZ_AOyKHa-yJzF_OHMkQw"/>
+</div>
+<span class="font-label-sm text-[11px] text-center text-on-surface leading-tight font-medium group-hover:text-primary">Termos &amp; Grabados</span>
+</a>
+<!-- Cat 5 -->
+<a class="flex flex-col items-center gap-1.5 flex-shrink-0 group w-[74px]" href="#">
+<div class="w-16 h-16 rounded-full overflow-hidden bg-surface-container-low shadow-sm group-hover:scale-105 group-active:scale-95 transition-transform flex items-center justify-center">
+<img class="w-full h-full object-cover" data-alt="Handmade genuine leather mate carry tote bag and matching yerba dispenser pouch with zipper close-up." src="https://lh3.googleusercontent.com/aida-public/AB6AXuA4xW3e07EUHToD00xrgs2E3cWVMNPZtAHFcYjMmSwLr2n8t2cy2NkWA0JCVSh4uxPAhS8t_0Q6MlaVxy2W8diraBw6C2M2QPgju6MS_KTWZPLoZJZ7GxGUf20lN9f6G42k0CcwO7OdO0m3f_3NQTxClMnIeKo90HT4VEwMp5jK4DFy23bLVYjLJvuXhZ_ulwxaxV2VXdESIwMCKxxMjd5FQPzzs0ibu2kq2KxkDVOPjC3h4LM_QFzF4A"/>
+</div>
+<span class="font-label-sm text-[11px] text-center text-on-surface leading-tight font-medium group-hover:text-primary">Yerberas &amp; Canastas</span>
+</a>
+<!-- Cat 6 -->
+<a class="flex flex-col items-center gap-1.5 flex-shrink-0 group w-[74px]" href="#">
+<div class="w-16 h-16 rounded-full overflow-hidden bg-surface-container-low shadow-sm group-hover:scale-105 group-active:scale-95 transition-transform flex items-center justify-center">
+<img class="w-full h-full object-cover" data-alt="Traditional camionero wooden mate wrapped in matte black leather with polished silver rim." src="https://lh3.googleusercontent.com/aida-public/AB6AXuDDA8sQpDGUR2AAUy8v96dZ4qUb-6B2TYsxzCuNP-bFlzfklyxUmz11NuXQCpuArkrZGUTJVOa1mNfIlVO9U9f5sROq5gRJFLuR3mmjUIq0e8RFV6rOcg1RPS_jFvzmwBWG3U1cnAiFf6POjtQZ_6WnpIDfPH5q9aOSc29w0eg9o5TG-3cq9YlJVJvPox5a8hjPdwvTw-_dsnSz4GAFdUJWyYe8AZvp1Lka0hriV89rZonoRpZJkaQ7mw"/>
+</div>
+<span class="font-label-sm text-[11px] text-center text-on-surface leading-tight font-medium group-hover:text-primary">Camioneros</span>
+</a>
+</div>
+</section>
+<!-- 4. Los Más Vendidos (Cuadrícula 2 Columnas) -->
+<section class="w-full py-space-md px-gutter-mobile">
+<div class="flex items-center justify-between mb-space-sm">
+<div class="flex flex-col">
+<div class="flex items-center gap-1.5">
+<span class="material-symbols-outlined text-primary text-[20px]" style="font-variation-settings: 'FILL' 1;">stars</span>
+<span class="font-label-sm text-label-sm text-primary uppercase font-bold tracking-wider">Favoritos de la Casa</span>
+</div>
+<h3 class="font-headline-sm text-headline-sm text-on-surface">Los Más Vendidos</h3>
+</div>
+<span class="font-body-sm text-[12px] text-on-surface-variant">4 modelos top</span>
+</div>
+<div class="grid grid-cols-2 gap-space-sm">
+<!-- Producto 1 -->
+<div class="group bg-surface-container-lowest rounded-xl p-space-xs flex flex-col justify-between shadow-sm hover:shadow-md transition-all duration-300 relative">
+<div class="relative w-full aspect-square rounded-lg overflow-hidden bg-surface-container-low mb-space-xs">
+<span class="absolute top-2 left-2 z-10 bg-primary text-on-primary font-label-sm text-[10px] px-2 py-0.5 rounded-full font-bold shadow-xs">Top Ventas</span>
+<button aria-label="Favorito" class="absolute top-2 right-2 z-10 w-7 h-7 rounded-full bg-surface-container-lowest/80 text-on-surface hover:text-error flex items-center justify-center transition-colors">
+<span class="material-symbols-outlined text-[16px]">favorite</span>
+</button>
+<img class="w-full h-full object-cover group-hover:scale-105 transition-transform duration-300" data-alt="Top selling artisanal mate imperial calabash wrapped in premium black cow leather with chiseled alpaca rim isolated on pure white background." src="https://lh3.googleusercontent.com/aida-public/AB6AXuBU_XCKw9BGI2Y6FdvXLEV3jQARfC-fR2nAEDD0lBBcgwz8aeUHqhBUD_AAhD1BWW2y7-1Jm85LkMWjxpehk7BkDQA_K1sea_-91xccUSAuUvr0fp5nolXNd-1896xyOr-uJr3C1OwtZ-zRgP4Hx1u7CNVcEoE9SlScTRlgfGvQ_rY1_t_OWcvgSOBpydzIPb2yAQYdYhGhU_yX76yWTwOpbR4hifBpnQhMTIE--C5WheVLgWah4zJXag"/>
+</div>
+<div class="flex flex-col flex-grow">
+<span class="font-label-sm text-[11px] text-on-surface-variant">Calabaza Brasilera</span>
+<h4 class="font-label-lg text-label-lg text-on-surface group-hover:text-primary transition-colors font-bold line-clamp-1">Mate Imperial Cuero Negro</h4>
+<div class="mt-1 flex flex-col">
+<span class="font-price-md text-price-md text-on-surface font-extrabold">$48.900</span>
+<span class="font-body-sm text-[11px] text-primary font-semibold">6 cuotas fijas de $8.150</span>
+</div>
+</div>
+<button class="mt-space-xs w-full h-10 bg-surface-container-low group-hover:bg-primary group-hover:text-on-primary text-primary font-label-md text-label-md rounded-lg flex items-center justify-center gap-1.5 active:scale-95 transition-all shadow-xs add-cart-btn" data-product="Mate Imperial Cuero Negro">
+<span class="material-symbols-outlined text-[18px]">add_shopping_cart</span>
+<span>Agregar</span>
+</button>
+</div>
+<!-- Producto 2 -->
+<div class="group bg-surface-container-lowest rounded-xl p-space-xs flex flex-col justify-between shadow-sm hover:shadow-md transition-all duration-300 relative">
+<div class="relative w-full aspect-square rounded-lg overflow-hidden bg-surface-container-low mb-space-xs">
+<span class="absolute top-2 left-2 z-10 bg-secondary text-on-secondary font-label-sm text-[10px] px-2 py-0.5 rounded-full font-bold shadow-xs">Envío Gratis</span>
+<button aria-label="Favorito" class="absolute top-2 right-2 z-10 w-7 h-7 rounded-full bg-surface-container-lowest/80 text-on-surface hover:text-error flex items-center justify-center transition-colors">
+<span class="material-symbols-outlined text-[16px]">favorite</span>
+</button>
+<img class="w-full h-full object-cover group-hover:scale-105 transition-transform duration-300" data-alt="Torpedo mate wrapped in natural brown textured leather with thick polished silver ferrule sitting on white studio background." src="https://lh3.googleusercontent.com/aida-public/AB6AXuAU_zxGoEJ1pm-0Q16X9lyzCOS1P94J39SsFOSnCDciowthXGNWTWx2Tk-HQO9nI5fyTpSdUioP3bPLrjwHuhTS8kN_SGCJzD-c-TtEqVRENSlCAA_Z-iE2Vk93Nqc_-YQT0nPArTne8PLECRqVqmGZyXEuJmAxKFCMqs2Luv1tkZ7xgvX5AWGQ57KaUlPvRpOfy6_2QSmx17qNGzPBJ9vOPDhuaFd_V0p52T7oJh9GTPtEfUAPrYbT1A"/>
+</div>
+<div class="flex flex-col flex-grow">
+<span class="font-label-sm text-[11px] text-on-surface-variant">Uruguayo Auténtico</span>
+<h4 class="font-label-lg text-label-lg text-on-surface group-hover:text-primary transition-colors font-bold line-clamp-1">Torpedo Suela Marrón</h4>
+<div class="mt-1 flex flex-col">
+<span class="font-price-md text-price-md text-on-surface font-extrabold">$42.500</span>
+<span class="font-body-sm text-[11px] text-primary font-semibold">3 cuotas de $14.166</span>
+</div>
+</div>
+<button class="mt-space-xs w-full h-10 bg-surface-container-low group-hover:bg-primary group-hover:text-on-primary text-primary font-label-md text-label-md rounded-lg flex items-center justify-center gap-1.5 active:scale-95 transition-all shadow-xs add-cart-btn" data-product="Torpedo Suela Marrón">
+<span class="material-symbols-outlined text-[18px]">add_shopping_cart</span>
+<span>Agregar</span>
+</button>
+</div>
+<!-- Producto 3 -->
+<div class="group bg-surface-container-lowest rounded-xl p-space-xs flex flex-col justify-between shadow-sm hover:shadow-md transition-all duration-300 relative">
+<div class="relative w-full aspect-square rounded-lg overflow-hidden bg-surface-container-low mb-space-xs">
+<button aria-label="Favorito" class="absolute top-2 right-2 z-10 w-7 h-7 rounded-full bg-surface-container-lowest/80 text-on-surface hover:text-error flex items-center justify-center transition-colors">
+<span class="material-symbols-outlined text-[16px]">favorite</span>
+</button>
+<img class="w-full h-full object-cover group-hover:scale-105 transition-transform duration-300" data-alt="Chiseled alpaca silver bombilla pico de loro straw with spring filter laid diagonally on pure white background." src="https://lh3.googleusercontent.com/aida-public/AB6AXuCY0604bllUPVJvf5aJMfZY_eOW1as423HokWGjpMVVNhSbDrpEws3Gs8rxuVKD5eN-OD9F9EI8JFINUErNzy_GbuPm7VV2zBaVRker-qvWnt5BPUJoZzDLT1IynA15QiM4RbQf2wGdUinVsUjuxGUJG7fdQVaEucPGpnfGCHUP0LDNOLJc-IFKVu2pdZhGAe0WHjTlYmMHZv25mPUwwPB1ZRI2FdHV1rN2t40NhFRlbggE4I2mAe6ZWQ"/>
+</div>
+<div class="flex flex-col flex-grow">
+<span class="font-label-sm text-[11px] text-on-surface-variant">Alpaca Maciza</span>
+<h4 class="font-label-lg text-label-lg text-on-surface group-hover:text-primary transition-colors font-bold line-clamp-1">Bombilla Pico de Loro Cincelada</h4>
+<div class="mt-1 flex flex-col">
+<span class="font-price-md text-price-md text-on-surface font-extrabold">$19.800</span>
+<span class="font-body-sm text-[11px] text-primary font-semibold">15% OFF transferencia</span>
+</div>
+</div>
+<button class="mt-space-xs w-full h-10 bg-surface-container-low group-hover:bg-primary group-hover:text-on-primary text-primary font-label-md text-label-md rounded-lg flex items-center justify-center gap-1.5 active:scale-95 transition-all shadow-xs add-cart-btn" data-product="Bombilla Pico de Loro Cincelada">
+<span class="material-symbols-outlined text-[18px]">add_shopping_cart</span>
+<span>Agregar</span>
+</button>
+</div>
+<!-- Producto 4 -->
+<div class="group bg-surface-container-lowest rounded-xl p-space-xs flex flex-col justify-between shadow-sm hover:shadow-md transition-all duration-300 relative">
+<div class="relative w-full aspect-square rounded-lg overflow-hidden bg-surface-container-low mb-space-xs">
+<span class="absolute top-2 left-2 z-10 bg-primary text-on-primary font-label-sm text-[10px] px-2 py-0.5 rounded-full font-bold shadow-xs">Kit Listo</span>
+<button aria-label="Favorito" class="absolute top-2 right-2 z-10 w-7 h-7 rounded-full bg-surface-container-lowest/80 text-on-surface hover:text-error flex items-center justify-center transition-colors">
+<span class="material-symbols-outlined text-[16px]">favorite</span>
+</button>
+<img class="w-full h-full object-cover group-hover:scale-105 transition-transform duration-300" data-alt="Complete mate starter set with leather bag, mate camionero, and yerba container in refined studio presentation." src="https://lh3.googleusercontent.com/aida-public/AB6AXuBLnPOYndIbgmLnxXAugFxWQgy55w8GC83PA70Ba2pdLhSN3h5HlzoShXWGvOSqgP_6RMhfSg3z_nzJvRakJmBljRJ5VPnBK7KKLxiJGWWxxHOWwnbZzdRg1RqK75kb053WHwEAHJ1Dq7IhIpkxHq5RIMIXLxf8J-_qVHqI4K4UXAp6Vj5pxYwfigd_cw1iWH0HiIPhGXjYf7gK0--5AtUDsBaionx9KWX1pDPsaa7xiGoVicwIKivfaQ"/>
+</div>
+<div class="flex flex-col flex-grow">
+<span class="font-label-sm text-[11px] text-on-surface-variant">Set Regalo</span>
+<h4 class="font-label-lg text-label-lg text-on-surface group-hover:text-primary transition-colors font-bold line-clamp-1">Combo Matero Gaucho Full</h4>
+<div class="mt-1 flex flex-col">
+<span class="font-price-md text-price-md text-on-surface font-extrabold">$76.000</span>
+<span class="font-body-sm text-[11px] text-primary font-semibold">6 cuotas de $12.666</span>
+</div>
+</div>
+<button class="mt-space-xs w-full h-10 bg-surface-container-low group-hover:bg-primary group-hover:text-on-primary text-primary font-label-md text-label-md rounded-lg flex items-center justify-center gap-1.5 active:scale-95 transition-all shadow-xs add-cart-btn" data-product="Combo Matero Gaucho Full">
+<span class="material-symbols-outlined text-[18px]">add_shopping_cart</span>
+<span>Agregar</span>
+</button>
+</div>
+</div>
+</section>
+<!-- Banner Promocional Intermedio -->
+<section class="w-full px-gutter-mobile py-space-xs">
+<div class="relative w-full rounded-xl overflow-hidden bg-gradient-to-r from-primary via-primary-container to-primary p-space-md text-on-primary shadow-sm flex flex-col justify-between">
+<div class="flex flex-col gap-1 z-10">
+<span class="font-label-sm text-label-sm text-secondary-fixed uppercase tracking-wider font-bold">Grabado Láser Personalizado</span>
+<h3 class="font-headline-sm text-headline-sm font-bold leading-snug">Personalizá tu Mate o Bombilla con tu Nombre o Escudo</h3>
+<p class="font-body-sm text-body-sm text-primary-fixed-dim">Hacé de tu ritual un mate único e irrepetible en minutos.</p>
+</div>
+<div class="mt-space-sm z-10">
+<a class="inline-flex items-center gap-1.5 bg-secondary-fixed text-on-secondary-fixed font-label-lg text-label-lg px-4 py-2 rounded-lg font-bold shadow-sm active:scale-95 transition-transform" href="#">
+<span class="material-symbols-outlined text-[18px]">draw</span>
+<span>Personalizar Ahora</span>
+</a>
+</div>
+<!-- Decorative icon SVG watermark -->
+<div class="absolute -right-4 -bottom-6 text-on-primary/10 pointer-events-none select-none">
+<span class="material-symbols-outlined text-[140px]">local_cafe</span>
+</div>
+</div>
+</section>
+<!-- Ofertas de la Semana -->
+<section class="w-full py-space-md px-gutter-mobile">
+<div class="flex items-center justify-between mb-space-sm">
+<div class="flex flex-col">
+<div class="flex items-center gap-1.5">
+<span class="material-symbols-outlined text-error text-[20px]" style="font-variation-settings: 'FILL' 1;">local_fire_department</span>
+<span class="font-label-sm text-label-sm text-error uppercase font-bold tracking-wider">Descuentos Especiales</span>
+</div>
+<h3 class="font-headline-sm text-headline-sm text-on-surface">Ofertas de la Semana</h3>
+</div>
+<div class="bg-error-container text-on-error-container font-label-sm text-[11px] px-2 py-0.5 rounded-full font-bold">
+        Hasta 25% OFF
+      </div>
+</div>
+<!-- Ofertas Grid -->
+<div class="grid grid-cols-2 gap-space-sm">
+<!-- Oferta 1 -->
+<div class="group bg-surface-container-lowest rounded-xl p-space-xs flex flex-col justify-between shadow-sm hover:shadow-md transition-all duration-300 relative">
+<div class="relative w-full aspect-square rounded-lg overflow-hidden bg-surface-container-low mb-space-xs">
+<span class="absolute top-2 left-2 z-10 bg-error text-on-error font-label-sm text-[10px] px-2 py-0.5 rounded-full font-bold">-20% OFF</span>
+<img class="w-full h-full object-cover group-hover:scale-105 transition-transform duration-300" data-alt="Algarrobo wooden mate cup with smooth polished surface and silver alpaca edge resting on pristine white background." src="https://lh3.googleusercontent.com/aida-public/AB6AXuC2bbL6GbnpuYHWbUrFog9fJxID4iJVNe8hfnEbZWkBZFZmsVXPWoITQrcdrOHO3LfnKeYyOncgxpYrzoNOG1iKw3hZbI9ej0XeEzmyruoC3MA4kcCn3DE2-04A72LI7cWsYpTQySVOjTkwaNxuytR1MHhXbq5uVvTVnbKhRMNN4IVm7ZVTrydK6vZAOxz_JRUgVExilyDSnjGKrKpokH_Qg-P2g-yR4HXsd7diGH3aouus0Xu_p2t_xA"/>
+</div>
+<div class="flex flex-col flex-grow">
+<span class="font-label-sm text-[11px] text-on-surface-variant">Madera Noble</span>
+<h4 class="font-label-lg text-label-lg text-on-surface group-hover:text-primary transition-colors font-bold line-clamp-1">Camionero Algarrobo Puro</h4>
+<div class="mt-1 flex flex-col">
+<div class="flex items-center gap-1.5">
+<span class="font-price-md text-price-md text-on-surface font-extrabold">$31.990</span>
+<span class="font-body-sm text-[12px] text-on-surface-variant line-through">$39.990</span>
+</div>
+<span class="font-body-sm text-[11px] text-primary font-semibold">3 cuotas fijas de $10.663</span>
+</div>
+</div>
+<button class="mt-space-xs w-full h-10 bg-surface-container-low group-hover:bg-primary group-hover:text-on-primary text-primary font-label-md text-label-md rounded-lg flex items-center justify-center gap-1.5 active:scale-95 transition-all shadow-xs add-cart-btn" data-product="Camionero Algarrobo Puro">
+<span class="material-symbols-outlined text-[18px]">add_shopping_cart</span>
+<span>Aprovechar</span>
+</button>
+</div>
+<!-- Oferta 2 -->
+<div class="group bg-surface-container-lowest rounded-xl p-space-xs flex flex-col justify-between shadow-sm hover:shadow-md transition-all duration-300 relative">
+<div class="relative w-full aspect-square rounded-lg overflow-hidden bg-surface-container-low mb-space-xs">
+<span class="absolute top-2 left-2 z-10 bg-error text-on-error font-label-sm text-[10px] px-2 py-0.5 rounded-full font-bold">-25% OFF</span>
+<img class="w-full h-full object-cover group-hover:scale-105 transition-transform duration-300" data-alt="Classic surgical stainless steel flat bombilla straw with fine removable filter mesh studio shot on clean background." src="https://lh3.googleusercontent.com/aida-public/AB6AXuBfuVccT62rjsO_toI62kimK0DAnqovGxIquiE2A9hxZAYNu0uz1-IR7djtABStfmTSlA7kmfXky5IS0ZNFabPrnoXROkH8hJLU6TkbPzll-pMaR2Yfya_w9ZZp-zutVyHe4quGZbod2AHssw330uhcSuKaJCRqsukDzAAzIkxE2n_BvahjdLIg84shDZoAzTe5gy_WEKxO4I8NpXn1BB_17OEWHhQLhZtzfrRGAR8oXhx68AzulyRkpg"/>
+</div>
+<div class="flex flex-col flex-grow">
+<span class="font-label-sm text-[11px] text-on-surface-variant">Acero Inox Quirúrgico</span>
+<h4 class="font-label-lg text-label-lg text-on-surface group-hover:text-primary transition-colors font-bold line-clamp-1">Bombilla Chata Desarmable</h4>
+<div class="mt-1 flex flex-col">
+<div class="flex items-center gap-1.5">
+<span class="font-price-md text-price-md text-on-surface font-extrabold">$11.250</span>
+<span class="font-body-sm text-[12px] text-on-surface-variant line-through">$15.000</span>
+</div>
+<span class="font-body-sm text-[11px] text-primary font-semibold">Envío inmediato</span>
+</div>
+</div>
+<button class="mt-space-xs w-full h-10 bg-surface-container-low group-hover:bg-primary group-hover:text-on-primary text-primary font-label-md text-label-md rounded-lg flex items-center justify-center gap-1.5 active:scale-95 transition-all shadow-xs add-cart-btn" data-product="Bombilla Chata Desarmable">
+<span class="material-symbols-outlined text-[18px]">add_shopping_cart</span>
+<span>Aprovechar</span>
+</button>
+</div>
+</div>
+</section>
+<!-- 5. Comunidad Matera (@fandelmatear) -->
+<section class="w-full py-space-md px-gutter-mobile bg-surface-container-low rounded-t-2xl">
+<div class="flex flex-col items-center text-center mb-space-sm">
+<div class="w-10 h-10 rounded-full bg-primary-fixed flex items-center justify-center text-on-primary-fixed mb-1.5">
+<span class="material-symbols-outlined text-[22px]">photo_camera</span>
+</div>
+<span class="font-label-sm text-label-sm text-primary uppercase font-bold tracking-wider">#FanDelMate</span>
+<h3 class="font-headline-sm text-headline-sm text-on-surface font-bold">Comunidad Matera</h3>
+<p class="font-body-sm text-body-sm text-on-surface-variant max-w-[280px] mt-0.5">
+        Etiquetanos en tus historias como <span class="text-primary font-bold">@fandelmatear</span> y sumate a nuestra ronda.
+      </p>
+</div>
+<!-- Grid Fotos de Clientes -->
+<div class="grid grid-cols-3 gap-2">
+<!-- Foto 1 -->
+<div class="relative aspect-square rounded-lg overflow-hidden group shadow-xs">
+<img class="w-full h-full object-cover group-hover:scale-105 transition-transform duration-300" data-alt="Customer sitting in a sunlit mountain landscape of Patagonia sipping mate from a custom imperial gourd in relaxed outdoor lifestyle scene." src="https://lh3.googleusercontent.com/aida-public/AB6AXuDq9bTXhgLTZB4Im7yyAg0H1XgEAzTTMj2U9HZnb-lUvu8dDXl5liAhdcn_0Sj76653XchjYlT0DByK77hbs_iNq0VktrXTDmt2hYTUxg98mKYmYesGyQMXokfQOs3WcsBZdwA44mv6NlCJFRGLt16JvbX181V9CgKyCKL9WFJH0U8cIYrKY98RoSqnI2v6rfaAOkYOUYYoHibRHnOGIGkbYHT4nW5_uSBofN4VjDacytVIr-04nQUgPA"/>
+<div class="absolute inset-0 bg-on-surface/40 opacity-0 group-hover:opacity-100 transition-opacity flex items-center justify-center text-on-primary">
+<span class="font-label-sm text-[10px] font-bold">@marcos.mate</span>
+</div>
+</div>
+<!-- Foto 2 -->
+<div class="relative aspect-square rounded-lg overflow-hidden group shadow-xs">
+<img class="w-full h-full object-cover group-hover:scale-105 transition-transform duration-300" data-alt="Young smiling woman in cozy home sweater holding a personalized torpedo mate with yerba montañita in bright kitchen." src="https://lh3.googleusercontent.com/aida-public/AB6AXuCZLX3OnXiF5eHfiVaCzZeens6RNv717PcUxD_DkR0a5cS4LIttbnDtc3_EsmeeoqBCT2InmFJvSYmpT0q3hZXr8r6iOunqHtBj2F_O6JWu6fTZ64xab4LSJ57kH_O2AnueGx7jcUMtcqDFG8pESgX3etoJzWW2nGuvSSdTMPAtm0xULXKDReXXqd170tG-ZdWtomyPVj4aZqfBwTT0m6QsjSfa2BMSGVa75FE-pW7pSULjqszQ1if-PQ"/>
+<div class="absolute inset-0 bg-on-surface/40 opacity-0 group-hover:opacity-100 transition-opacity flex items-center justify-center text-on-primary">
+<span class="font-label-sm text-[10px] font-bold">@camila_r</span>
+</div>
+</div>
+<!-- Foto 3 -->
+<div class="relative aspect-square rounded-lg overflow-hidden group shadow-xs">
+<img class="w-full h-full object-cover group-hover:scale-105 transition-transform duration-300" data-alt="Friends sharing mate while camping around a campfire near a lake at sunset with thermo and custom mate set." src="https://lh3.googleusercontent.com/aida-public/AB6AXuAfrLRn33u6upx_Tq2wWRN65xPaUHlN59YP99mzVdMzAAa2mEWfOgmVbTOXXHasjV9pBquoyRWBoePqjNaNqbdm7qQOJil2lHAL7dhiqtjztEhV8JYkIfAtjV5Ee29El5Z_K059t1AZrn_ojiC_HBd4igKjllSNtsDRiJ3AuZ5U0gS1XVzjGFeGgFJRQgdIANQjhnSaTHmnVhnv3kkJo5ZDDtZeWZYkBsIt5WZ45RlJUYOb8Ang3bV2Bw"/>
+<div class="absolute inset-0 bg-on-surface/40 opacity-0 group-hover:opacity-100 transition-opacity flex items-center justify-center text-on-primary">
+<span class="font-label-sm text-[10px] font-bold">@viajeros.arg</span>
+</div>
+</div>
+<!-- Foto 4 -->
+<div class="relative aspect-square rounded-lg overflow-hidden group shadow-xs">
+<img class="w-full h-full object-cover group-hover:scale-105 transition-transform duration-300" data-alt="Close up shot of perfect frothy green mate foam yerba preparation with handcrafted alpaca silver straw in morning light." src="https://lh3.googleusercontent.com/aida-public/AB6AXuAW2TauBoK998x0-6_2Uq_LnktSvvOORzJSgTgila13ujgV5tMehTPZJCnAqfcrvT5JzjYqSQ-RSQVYJiAdxgF7IUfojZNVDIesG5EjN2S4no91b8hfFK3JxkLl6zTWLpVS77pAm34qZnd8GAdvo7WXbzDFKtbPIYRFErJSJ9KQxhMvoTmvtqvYlfU10FGcNq2EEsPvZmbkLrMo9RoPC6CD01R2LXDPPhdlqqKnmL5PcbK5qvwOsmHfcw"/>
+<div class="absolute inset-0 bg-on-surface/40 opacity-0 group-hover:opacity-100 transition-opacity flex items-center justify-center text-on-primary">
+<span class="font-label-sm text-[10px] font-bold">@ritualmatero</span>
+</div>
+</div>
+<!-- Foto 5 -->
+<div class="relative aspect-square rounded-lg overflow-hidden group shadow-xs">
+<img class="w-full h-full object-cover group-hover:scale-105 transition-transform duration-300" data-alt="University student desk with laptop, study notes, and an engraved mate imperial gourd with hot water thermos." src="https://lh3.googleusercontent.com/aida-public/AB6AXuDGTHej6LY1wmGWe0yfXzkkc_wdg9zGz5F4D4S1Dck8WjAvg7LePmYFFQG8tjQMCyqswaLzAFULOfnfXJFyrcE6OyLd2pk3IZeqZBtwEgSc4oTfQIRT_yln1iGFbc_DUkkkOMC3k1YoeuRBfC8tm3TKYJEpJuGDdSrCLlFlDZlvBHPFUpIuW5ne6nG-zQHdsGO1lrktk6WuzMJtO9t771mi99O_rwnUePv2gscnkqNqeQzC_cyQ4AVcLw"/>
+<div class="absolute inset-0 bg-on-surface/40 opacity-0 group-hover:opacity-100 transition-opacity flex items-center justify-center text-on-primary">
+<span class="font-label-sm text-[10px] font-bold">@facu_estudio</span>
+</div>
+</div>
+<!-- Foto 6 -->
+<div class="relative aspect-square rounded-lg overflow-hidden group shadow-xs">
+<img class="w-full h-full object-cover group-hover:scale-105 transition-transform duration-300" data-alt="Sunday family barbecue asado in Argentina with a tray containing multiple artisan mates and warm pastries." src="https://lh3.googleusercontent.com/aida-public/AB6AXuBsrD6mFDLlOdzGzdQKjcXJCDyAf7sAYTvzg6p-ITp9aiNWbCQ-7SLrVfbGG5MJclTq9EcmcXlxpsS4E8ukcM2IB_uy7lPZiTjhHQUwtBllz64CpJKzVwnte_rYQ3PuX9X0I6QnKWS_N48l307-95c8Zv0kCpn4mO_AcexMwo2CVt6qZqu2tIt-O7UEQ2xcutY4bfHdTNHSyKTrVNsIVF-XhB-zPj4lPD2AqlBCEngbAvYjXXaDM90ayQ"/>
+<div class="absolute inset-0 bg-on-surface/40 opacity-0 group-hover:opacity-100 transition-opacity flex items-center justify-center text-on-primary">
+<span class="font-label-sm text-[10px] font-bold">@asado.y.mate</span>
+</div>
+</div>
+</div>
+<!-- Instagram CTA -->
+<div class="mt-space-sm flex justify-center">
+<a class="inline-flex items-center gap-2 bg-surface-container-lowest text-on-surface hover:text-primary font-label-md text-label-md px-4 py-2 rounded-full shadow-sm active:scale-95 transition-all" href="https://instagram.com" rel="noopener noreferrer" target="_blank">
+<span class="material-symbols-outlined text-[18px] text-primary">camera</span>
+<span>Seguinos en Instagram</span>
+<span class="font-bold text-primary">@fandelmatear</span>
+</a>
+</div>
+</section>
+<!-- 6. Notificación Flotante de Compra Reciente (Micro-interacción) -->
+<div class="fixed top-20 left-4 right-4 z-40 max-w-sm mx-auto bg-surface-container-lowest/95 backdrop-blur-md rounded-xl p-space-xs shadow-xl flex items-center gap-3 transform -translate-y-28 opacity-0 transition-all duration-500 pointer-events-none" id="toast-recent-purchase">
+<div class="w-11 h-11 rounded-lg overflow-hidden bg-surface-container-low flex-shrink-0">
+<img class="w-full h-full object-cover" data-alt="Artisanal mate product thumbnail" id="toast-img" src="https://lh3.googleusercontent.com/aida-public/AB6AXuA3-l7jX0BUijiONgo_41PZPpdcRQ72UOlQnuZe1-jZwXBINFF7BzmQi2y75ODQCoZLeUY-4AF4kcdBCyhRZIDshi39EasjLDO_D2uICUr3OXmj7ZB0RAgfHaauGDcza2cKX0N89wLrJWMqq2YJ509lOKDCCLGJUBCvzOzMUWqgloT1rXNgmLuc93A-DEKd0Um8zJZtTU0TDhxg8vPOf8Xuwg2-kDYjZ8o58u8hPgHIcKYrq2jH-YF9_A"/>
+</div>
+<div class="flex flex-col min-w-0 flex-grow">
+<div class="flex items-center gap-1">
+<span class="w-2 h-2 rounded-full bg-primary animate-ping"></span>
+<span class="font-label-sm text-[10px] text-primary uppercase font-bold">¡Recién comprado!</span>
+</div>
+<p class="font-label-md text-[12px] text-on-surface font-semibold truncate" id="toast-text">Mate Imperial Cuero Negro</p>
+<span class="font-body-sm text-[11px] text-on-surface-variant" id="toast-location">Desde Córdoba Capital • hace 3 min</span>
+</div>
+<button class="w-6 h-6 rounded-full flex items-center justify-center text-outline hover:text-on-surface" id="toast-close-btn">
+<span class="material-symbols-outlined text-[16px]">close</span>
+</button>
+</div>
+<!-- Micro-interacción Toast Carrito -->
+<div class="fixed bottom-20 left-4 right-4 z-40 max-w-xs mx-auto bg-primary text-on-primary rounded-xl px-4 py-3 shadow-xl flex items-center gap-2.5 transform translate-y-20 opacity-0 transition-all duration-300 pointer-events-none" id="toast-cart-added">
+<span class="material-symbols-outlined text-[20px]" style="font-variation-settings: 'FILL' 1;">check_circle</span>
+<div class="flex flex-col flex-grow">
+<span class="font-label-md text-label-md font-bold">¡Agregado al carrito!</span>
+<span class="font-body-sm text-[11px] text-primary-fixed truncate" id="cart-added-title">Producto</span>
+</div>
+</div>
+</div>
+<!-- Client-side Logic for Carousel and Toasts -->
+<script>
+  (function() {
+    // 1. Carrusel Interactivo
+    const slider = document.getElementById('hero-slider');
+    const dots = document.querySelectorAll('.carousel-dot');
+    const prevBtn = document.getElementById('prev-slide-btn');
+    const nextBtn = document.getElementById('next-slide-btn');
+    let currentSlide = 0;
+    const totalSlides = 3;
+    let slideInterval;
+
+    function goToSlide(index) {
+      currentSlide = (index + totalSlides) % totalSlides;
+      if (slider) {
+        slider.style.transform = `translateX(-${currentSlide * 100}%)`;
+      }
+      dots.forEach((dot, idx) => {
+        if (idx === currentSlide) {
+          dot.classList.remove('w-2', 'bg-surface-container-lowest/50');
+          dot.classList.add('w-5', 'bg-surface-container-lowest');
+        } else {
+          dot.classList.remove('w-5', 'bg-surface-container-lowest');
+          dot.classList.add('w-2', 'bg-surface-container-lowest/50');
+        }
+      });
+    }
+
+    function startAutoSlide() {
+      stopAutoSlide();
+      slideInterval = setInterval(() => {
+        goToSlide(currentSlide + 1);
+      }, 4500);
+    }
+
+    function stopAutoSlide() {
+      if (slideInterval) clearInterval(slideInterval);
+    }
+
+    if (prevBtn) {
+      prevBtn.addEventListener('click', () => {
+        stopAutoSlide();
+        goToSlide(currentSlide - 1);
+        startAutoSlide();
+      });
+    }
+
+    if (nextBtn) {
+      nextBtn.addEventListener('click', () => {
+        stopAutoSlide();
+        goToSlide(currentSlide + 1);
+        startAutoSlide();
+      });
+    }
+
+    dots.forEach((dot, idx) => {
+      dot.addEventListener('click', () => {
+        stopAutoSlide();
+        goToSlide(idx);
+        startAutoSlide();
+      });
+    });
+
+    startAutoSlide();
+
+    // 2. Notificación Flotante de Compra Reciente
+    const purchaseToast = document.getElementById('toast-recent-purchase');
+    const toastText = document.getElementById('toast-text');
+    const toastLoc = document.getElementById('toast-location');
+    const toastCloseBtn = document.getElementById('toast-close-btn');
+
+    const recentPurchases = [
+      { item: 'Mate Imperial Cuero Negro', loc: 'Desde Córdoba Capital • hace 2 min' },
+      { item: 'Torpedo Suela Marrón', loc: 'Desde Rosario, Santa Fe • hace 4 min' },
+      { item: 'Bombilla Pico de Loro Cincelada', loc: 'Desde Palermo, CABA • hace 7 min' },
+      { item: 'Camionero Algarrobo Puro', loc: 'Desde Mendoza Capital • hace 1 min' }
+    ];
+
+    let purchaseIdx = 0;
+
+    function showPurchaseToast() {
+      if (!purchaseToast) return;
+      const data = recentPurchases[purchaseIdx % recentPurchases.length];
+      if (toastText) toastText.textContent = data.item;
+      if (toastLoc) toastLoc.textContent = data.loc;
+
+      purchaseToast.classList.remove('-translate-y-28', 'opacity-0', 'pointer-events-none');
+      purchaseToast.classList.add('translate-y-0', 'opacity-100');
+
+      setTimeout(() => {
+        hidePurchaseToast();
+      }, 5000);
+
+      purchaseIdx++;
+    }
+
+    function hidePurchaseToast() {
+      if (!purchaseToast) return;
+      purchaseToast.classList.add('-translate-y-28', 'opacity-0', 'pointer-events-none');
+      purchaseToast.classList.remove('translate-y-0', 'opacity-100');
+    }
+
+    if (toastCloseBtn) {
+      toastCloseBtn.addEventListener('click', hidePurchaseToast);
+    }
+
+    // Primer disparo a los 2.5 segundos, luego periódico
+    setTimeout(showPurchaseToast, 2500);
+    setInterval(showPurchaseToast, 18000);
+
+    // 3. Botones Agregar al Carrito (Micro-interacción feedback)
+    const addButtons = document.querySelectorAll('.add-cart-btn');
+    const cartToast = document.getElementById('toast-cart-added');
+    const cartTitle = document.getElementById('cart-added-title');
+    let cartToastTimeout;
+
+    addButtons.forEach(btn => {
+      btn.addEventListener('click', (e) => {
+        e.preventDefault();
+        const productName = btn.getAttribute('data-product') || 'Producto seleccionado';
+        if (cartTitle) cartTitle.textContent = productName;
+
+        // Feedback botón
+        btn.classList.add('scale-95', 'bg-primary', 'text-on-primary');
+        setTimeout(() => btn.classList.remove('scale-95'), 150);
+
+        // Feedback toast
+        if (cartToast) {
+          clearTimeout(cartToastTimeout);
+          cartToast.classList.remove('translate-y-20', 'opacity-0', 'pointer-events-none');
+          cartToast.classList.add('translate-y-0', 'opacity-100');
+
+          cartToastTimeout = setTimeout(() => {
+            cartToast.classList.add('translate-y-20', 'opacity-0', 'pointer-events-none');
+            cartToast.classList.remove('translate-y-0', 'opacity-100');
+          }, 2400);
+        }
+      });
+    });
+
+  })();
+</script></main><aside class="fixed bottom-24 right-4 z-40 flex items-center gap-2 group"><span class="opacity-0 group-hover:opacity-100 transition-opacity duration-300 pointer-events-none bg-inverse-surface text-inverse-on-surface font-label-sm text-label-sm py-1.5 px-3 rounded-full shadow-[0_4px_16px_rgba(0,0,0,0.12)] whitespace-nowrap">¿Consultas? Escribinos</span><a aria-label="WhatsApp Fan del Mate" class="w-12 h-12 rounded-full bg-primary text-on-primary flex items-center justify-center shadow-[0_8px_20px_-4px_rgba(0,103,101,0.4)] hover:bg-primary-container active:scale-95 transition-all" href="https://wa.me/" rel="noopener noreferrer" target="_blank"><span class="material-symbols-outlined text-[26px]">chat</span></a></aside><nav class="fixed bottom-0 w-full z-50 pb-safe bg-surface-container-lowest/90 backdrop-blur-xl shadow-[0_-4px_20px_rgba(0,0,0,0.03)]" data-active-classes="text-primary font-bold"><div class="flex justify-around items-center h-16 px-gutter-mobile"><a aria-current="page" class="flex flex-col items-center justify-center w-16 h-12 transition-colors gap-0.5 text-primary font-bold" data-path="inicio" href="#"><span class="material-symbols-outlined text-[22px]">cottage</span><span class="font-label-sm text-[11px] leading-tight">Inicio</span></a><a class="flex flex-col items-center justify-center w-16 h-12 text-on-surface-variant hover:text-primary transition-colors gap-0.5" data-path="catalogo" href="#"><span class="material-symbols-outlined text-[22px]">storefront</span><span class="font-label-sm text-[11px] leading-tight">Catálogo</span></a><a class="flex flex-col items-center justify-center w-16 h-12 text-on-surface-variant hover:text-primary transition-colors gap-0.5" data-path="mis-pedidos" href="#"><span class="material-symbols-outlined text-[22px]">local_shipping</span><span class="font-label-sm text-[11px] leading-tight">Pedidos</span></a><a class="flex flex-col items-center justify-center w-16 h-12 text-on-surface-variant hover:text-primary transition-colors gap-0.5" data-path="carrito" href="#"><span class="material-symbols-outlined text-[22px]">shopping_bag</span><span class="font-label-sm text-[11px] leading-tight">Carrito</span></a></div></nav></body></html>

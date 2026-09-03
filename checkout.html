@@ -1,0 +1,427 @@
+<!DOCTYPE html><html lang="es"><head><meta charset="utf-8"><meta content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no, viewport-fit=cover" name="viewport"><link href="https://fonts.googleapis.com" rel="preconnect"><link crossorigin="" href="https://fonts.gstatic.com" rel="preconnect"><link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:ital,wght@0,400;0,600;0,700;0,800;1,400&amp;display=swap" rel="stylesheet"><link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:wght,FILL@100..700,0..1&amp;display=swap" rel="stylesheet"><style>@layer base{html,body{width:100vw;margin:0;padding:0;}body{overscroll-behavior:none;font-family:'Plus Jakarta Sans',sans-serif;}.pb-safe{padding-bottom:env(safe-area-inset-bottom,0px);}.pt-safe{padding-top:env(safe-area-inset-top,0px);}main>:first-child{margin-top:0!important;}main>:last-child{margin-bottom:0!important;}}::-webkit-scrollbar{display:none;}</style><script src="https://cdn.tailwindcss.com"></script><script id="tailwind-config">tailwind.config = {"darkMode":"class","theme":{"extend":{"colors":{"on-primary-fixed":"#00201f","surface-dim":"#dadad9","on-background":"#1a1c1c","inverse-primary":"#77d6d2","on-surface":"#1a1c1c","outline-variant":"#bdc9c8","surface-container-highest":"#e2e2e2","surface-tint":"#006a67","tertiary-container":"#6a7777","inverse-surface":"#2f3131","on-tertiary":"#ffffff","on-primary-fixed-variant":"#00504e","secondary-fixed-dim":"#67d8d3","on-surface-variant":"#3e4948","surface-container":"#eeeeed","on-tertiary-fixed-variant":"#3c4949","tertiary-fixed":"#d7e5e4","error":"#ba1a1a","error-container":"#ffdad6","primary-fixed-dim":"#77d6d2","on-secondary":"#ffffff","on-tertiary-container":"#f3fffe","on-tertiary-fixed":"#111e1d","tertiary-fixed-dim":"#bbc9c8","on-primary-container":"#f3fffd","surface":"#f9f9f9","surface-variant":"#e2e2e2","inverse-on-surface":"#f1f1f0","surface-container-lowest":"#ffffff","surface-container-low":"#f4f3f3","secondary":"#006a67","outline":"#6e7978","on-primary":"#ffffff","on-secondary-container":"#00706e","on-error":"#ffffff","on-error-container":"#93000a","secondary-fixed":"#85f5f0","primary-fixed":"#94f3ee","on-secondary-fixed-variant":"#00504e","on-secondary-fixed":"#00201f","primary":"#006765","surface-bright":"#f9f9f9","tertiary":"#515e5e","surface-container-high":"#e8e8e8","background":"#f9f9f9","primary-container":"#0b827f","secondary-container":"#85f5f0"},"borderRadius":{"DEFAULT":"0.25rem","lg":"0.5rem","xl":"0.75rem","full":"9999px"},"spacing":{"gutter-mobile":"1rem","space-2xl":"3rem","space-4xl":"6rem","space-3xl":"4rem","gutter-desktop":"1.5rem","space-lg":"1.5rem","space-sm":"0.75rem","space-2xs":"0.25rem","space-xl":"2rem","space-3xs":"0.125rem","container-max":"80rem","space-xs":"0.5rem","space-md":"1rem"},"fontFamily":{"headline-sm":["Plus Jakarta Sans"],"body-sm":["Plus Jakarta Sans"],"price-md":["Plus Jakarta Sans"],"headline-md":["Plus Jakarta Sans"],"headline-xl-mobile":["Plus Jakarta Sans"],"price-lg":["Plus Jakarta Sans"],"label-lg":["Plus Jakarta Sans"],"body-lg":["Plus Jakarta Sans"],"body-md":["Plus Jakarta Sans"],"headline-xl":["Plus Jakarta Sans"],"display-lg":["Plus Jakarta Sans"],"label-md":["Plus Jakarta Sans"],"headline-lg":["Plus Jakarta Sans"],"label-sm":["Plus Jakarta Sans"],"display-lg-mobile":["Plus Jakarta Sans"]},"fontSize":{"headline-sm":["18px",{"lineHeight":"24px","fontWeight":"600"}],"body-sm":["12px",{"lineHeight":"18px","fontWeight":"400"}],"price-md":["20px",{"lineHeight":"26px","fontWeight":"700"}],"headline-md":["20px",{"lineHeight":"28px","fontWeight":"600"}],"headline-xl-mobile":["26px",{"lineHeight":"34px","letterSpacing":"-0.015em","fontWeight":"700"}],"price-lg":["28px",{"lineHeight":"34px","letterSpacing":"-0.01em","fontWeight":"800"}],"label-lg":["14px",{"lineHeight":"20px","letterSpacing":"0.01em","fontWeight":"600"}],"body-lg":["16px",{"lineHeight":"26px","fontWeight":"400"}],"body-md":["14px",{"lineHeight":"22px","fontWeight":"400"}],"headline-xl":["36px",{"lineHeight":"44px","letterSpacing":"-0.015em","fontWeight":"700"}],"display-lg":["48px",{"lineHeight":"56px","letterSpacing":"-0.02em","fontWeight":"800"}],"label-md":["12px",{"lineHeight":"16px","letterSpacing":"0.02em","fontWeight":"700"}],"headline-lg":["24px",{"lineHeight":"32px","letterSpacing":"-0.01em","fontWeight":"700"}],"label-sm":["11px",{"lineHeight":"14px","letterSpacing":"0.03em","fontWeight":"700"}],"display-lg-mobile":["32px",{"lineHeight":"40px","letterSpacing":"-0.02em","fontWeight":"800"}]}}}};</script><style>
+    body {
+      min-height: max(884px, 100dvh);
+    }
+  </style>
+  </head><body class="bg-surface-container-lowest text-on-surface font-body-md flex flex-col min-h-screen"><header class="fixed top-0 w-full z-50 pt-safe bg-surface-container-lowest/90 backdrop-blur-xl shadow-[0_1px_10px_rgba(0,103,101,0.05)]"><div class="h-16 px-gutter-mobile flex items-center justify-between"><div class="flex items-center gap-space-xs"><button aria-label="Volver" class="w-11 h-11 flex items-center justify-center text-on-surface hover:text-primary transition-colors rounded-full" onclick="history.back()"><span class="material-symbols-outlined text-[24px]">arrow_back</span></button><h1 class="font-headline-sm text-headline-sm text-on-surface">Checkout Seguro</h1></div><div class="flex items-center gap-space-xs"><div class="w-8 h-8 rounded-full overflow-hidden bg-surface-container-low flex items-center justify-center"><img alt="Profile" class="w-8 h-8 rounded-full object-cover" src="https://lh3.googleusercontent.com/aida/AEtjO1VYJwOI_zXEqtHApFyE4oOoJBT3N-ubo2VXwllcuTz637Jt96CmQOAEEXe2OgqtAq5i0YuxgVN3SZrqxRasCqYMLnjb_Wp2bM1vufOcMwBYfEoUVNao3uZN4hWsvUnSN2q2bKJV4tIrp54IBWV1UYnzyush8X-XNFe8fF3otJVqgGZrvh1B5WEK2d9jDSZ9wMVUicIj2D1_8Oz_QFKGz-U8nKIS3TPk6Bw3HMdJrK3vFOsnjdYmLh6S8p9F-cNudcd-HUUneGAKfWU"></div></div></div></header><main class="flex-1 flex flex-col relative w-full pt-16 bg-surface-container-lowest"><div class="flex flex-col w-full pb-24">
+<!-- Stepper Progress Tracker -->
+<section class="w-full bg-surface-container-lowest px-gutter-mobile py-4 shadow-sm">
+<div class="flex items-center justify-between max-w-md mx-auto">
+<!-- Step 1: Carrito -->
+<div class="flex flex-col items-center gap-1">
+<div class="w-7 h-7 rounded-full bg-primary flex items-center justify-center text-on-primary">
+<span class="material-symbols-outlined text-[16px]">check</span>
+</div>
+<span class="font-label-sm text-label-sm text-primary">1. Carrito</span>
+</div>
+<!-- Connector line 1 -->
+<div class="flex-1 h-0.5 mx-2 bg-primary"></div>
+<!-- Step 2: Datos y Entrega (Active) -->
+<div class="flex flex-col items-center gap-1">
+<div class="w-7 h-7 rounded-full bg-primary-container text-on-primary flex items-center justify-center shadow-[0_2px_8px_rgba(0,103,101,0.25)]">
+<span class="material-symbols-outlined text-[15px]" style="font-variation-settings: 'FILL' 1;">local_shipping</span>
+</div>
+<span class="font-label-sm text-label-sm text-primary font-bold">2. Entrega</span>
+</div>
+<!-- Connector line 2 -->
+<div class="flex-1 h-0.5 mx-2 bg-surface-container-highest"></div>
+<!-- Step 3: Pago Mercado Pago -->
+<div class="flex flex-col items-center gap-1 opacity-60">
+<div class="w-7 h-7 rounded-full bg-surface-container text-on-surface-variant flex items-center justify-center">
+<span class="material-symbols-outlined text-[15px]">credit_card</span>
+</div>
+<span class="font-label-sm text-label-sm text-on-surface-variant">3. Pago</span>
+</div>
+</div>
+</section>
+<!-- Collapsible Order Summary Bar -->
+<section class="w-full px-gutter-mobile py-2.5 bg-surface-container-low">
+<div class="bg-surface-container-lowest rounded-xl p-3.5 shadow-sm">
+<button class="w-full flex items-center justify-between text-left focus:outline-none" id="toggle-summary-btn" type="button">
+<div class="flex items-center gap-2">
+<span class="material-symbols-outlined text-primary text-[20px]">shopping_bag</span>
+<span class="font-label-lg text-label-lg text-on-surface">Resumen de tu pedido (2 ítems)</span>
+</div>
+<div class="flex items-center gap-1.5">
+<span class="font-headline-sm text-headline-sm text-primary" id="summary-total-preview">$74.850</span>
+<span class="material-symbols-outlined text-on-surface-variant text-[20px] transition-transform duration-300" id="summary-chevron">expand_more</span>
+</div>
+</button>
+<!-- Expandable Drawer Content -->
+<div class="hidden flex-col gap-3 pt-3 mt-3" id="summary-drawer">
+<div class="flex items-center gap-3">
+<div class="w-14 h-14 rounded-lg bg-surface-container-low overflow-hidden flex-shrink-0">
+<img class="w-full h-full object-cover" data-alt="Handcrafted imperial mate gourd wrapped in premium brown Argentinian cowhide leather with chiseled alpaca silver rim standing on bright pure white studio background with soft teal reflection" src="https://lh3.googleusercontent.com/aida-public/AB6AXuAFTsmCTR1a9jGQ_BiOVP2xYvvhgNPz8D53H6Zq7Cvh2xHzAsOnmHHyjWnQqesY9XkGRusNGWKZYnmMhiLIfCTScxzSFLAI2m5f5q78tKbwxkjnfcfpdPRHVsudDwcAMa9QiQp5MjM_7xFeLCC5Xc72jOI66Q6qg5UYCiI1KVW6gn0UVbKuKCnFbNKcvXRLCKq0kzNsIZ7RCzfaMI-vq7bPVZC6MeuMiHYFZPd4LqJOBU4yfzg7PHyyzw">
+</div>
+<div class="flex-1 min-w-0">
+<p class="font-label-md text-label-md text-on-surface truncate">Mate Imperial Premium Cuero Crudo</p>
+<p class="font-body-sm text-body-sm text-on-surface-variant">Calabaza Brasilera Seleccionada • Alpaca</p>
+<span class="font-label-md text-label-md text-on-surface font-semibold">$54.900</span>
+</div>
+</div>
+<div class="flex items-center gap-3">
+<div class="w-14 h-14 rounded-lg bg-surface-container-low overflow-hidden flex-shrink-0">
+<img class="w-full h-full object-cover" data-alt="High quality surgical stainless steel mate straw bombilla with spring filter and delicate engraved details over clean minimalist white surface" src="https://lh3.googleusercontent.com/aida-public/AB6AXuC2hGdyn25ccx1tTwBIVnLBc4GJzv-1qYPSlA9aBwSRKd-e97JvsP4yT4cMh1KanXPOOn1Yj3mntapVMe0K6C2JDxuWh43QbwVnGfsbd4XZc1fApAXcJLf-G2L6hV6tpUIdzswDphh_zT8_NWe4rYE4nD2SFK4HjRZLkfxJcDMcNEcIZVnv0nyyQkXfFavnUYK5KrQI1oQUViMR-geMYxjvaIS936I1WsRgtNSP8GiJxj-VRl0x0Z4WpA">
+</div>
+<div class="flex-1 min-w-0">
+<p class="font-label-md text-label-md text-on-surface truncate">Bombilla Pico de Loro Alpaca Fina</p>
+<p class="font-body-sm text-body-sm text-on-surface-variant">Filtro ranurado removible • 19 cm</p>
+<span class="font-label-md text-label-md text-on-surface font-semibold">$19.950</span>
+</div>
+</div>
+<!-- Price breakdown breakdown breakdown -->
+<div class="bg-surface-container-low rounded-lg p-3 flex flex-col gap-1.5">
+<div class="flex justify-between font-body-sm text-body-sm text-on-surface-variant">
+<span>Subtotal productos</span>
+<span>$74.850</span>
+</div>
+<div class="flex justify-between font-body-sm text-body-sm text-on-surface-variant">
+<span>Costo de envío</span>
+<span class="text-primary font-semibold" id="summary-shipping-cost">A calcular</span>
+</div>
+<div class="hidden justify-between font-body-sm text-body-sm text-primary" id="discount-row">
+<span>Descuento Transferencia (15% OFF)</span>
+<span id="discount-amount">-$11.228</span>
+</div>
+<div class="flex justify-between font-price-md text-price-md text-on-surface pt-1.5">
+<span>Total final</span>
+<span class="text-primary" id="summary-grand-total">$74.850</span>
+</div>
+</div>
+</div>
+</div>
+</section>
+<!-- Checkout Form Main Container -->
+<form class="flex flex-col gap-4 px-gutter-mobile pt-3" id="checkout-form" onsubmit="event.preventDefault();">
+<!-- 1. Contact Info Section -->
+<div class="bg-surface-container-lowest rounded-xl p-4 shadow-sm flex flex-col gap-3">
+<div class="flex items-center gap-2">
+<span class="material-symbols-outlined text-primary text-[22px]">contact_mail</span>
+<h2 class="font-headline-sm text-headline-sm text-on-surface">1. Datos de Contacto</h2>
+</div>
+<p class="font-body-sm text-body-sm text-on-surface-variant -mt-1">Recibirás el seguimiento de despacho y tu factura electrónica.</p>
+<div class="flex flex-col gap-1">
+<label class="font-label-sm text-label-sm text-on-surface font-medium" for="email">Correo Electrónico *</label>
+<div class="relative">
+<input class="w-full h-12 px-3.5 rounded-lg bg-surface-container-low text-on-surface font-body-md text-body-md placeholder:text-on-surface-variant/60 focus:bg-surface-container-lowest focus:outline-none focus:shadow-[0_0_0_2px_#006765]" id="email" placeholder="tuemail@ejemplo.com" required="" type="email">
+</div>
+</div>
+<div class="flex flex-col gap-1">
+<div class="flex justify-between items-center">
+<label class="font-label-sm text-label-sm text-on-surface font-medium" for="phone">Teléfono / WhatsApp Móvil *</label>
+<span class="font-label-sm text-label-sm text-primary flex items-center gap-0.5">
+<span class="material-symbols-outlined text-[14px]">chat</span> Notificaciones
+          </span>
+</div>
+<div class="relative">
+<input class="w-full h-12 px-3.5 rounded-lg bg-surface-container-low text-on-surface font-body-md text-body-md placeholder:text-on-surface-variant/60 focus:bg-surface-container-lowest focus:outline-none focus:shadow-[0_0_0_2px_#006765]" id="phone" placeholder="11 5489 3322 (con código de área)" required="" type="tel">
+</div>
+</div>
+</div>
+<!-- 2. Billing & Identity Info -->
+<div class="bg-surface-container-lowest rounded-xl p-4 shadow-sm flex flex-col gap-3">
+<div class="flex items-center gap-2">
+<span class="material-symbols-outlined text-primary text-[22px]">badge</span>
+<h2 class="font-headline-sm text-headline-sm text-on-surface">2. Facturación e Identificación</h2>
+</div>
+<p class="font-body-sm text-body-sm text-on-surface-variant -mt-1">Requerido por normativa de AFIP y transportadoras.</p>
+<div class="flex flex-col gap-1">
+<label class="font-label-sm text-label-sm text-on-surface font-medium" for="full-name">Nombre y Apellido Completo *</label>
+<input class="w-full h-12 px-3.5 rounded-lg bg-surface-container-low text-on-surface font-body-md text-body-md placeholder:text-on-surface-variant/60 focus:bg-surface-container-lowest focus:outline-none focus:shadow-[0_0_0_2px_#006765]" id="full-name" placeholder="Ej. Mateo Santiago Morales" required="" type="text">
+</div>
+<div class="flex flex-col gap-1">
+<label class="font-label-sm text-label-sm text-on-surface font-medium" for="dni-cuil">DNI o CUIT/CUIL *</label>
+<input class="w-full h-12 px-3.5 rounded-lg bg-surface-container-low text-on-surface font-body-md text-body-md placeholder:text-on-surface-variant/60 focus:bg-surface-container-lowest focus:outline-none focus:shadow-[0_0_0_2px_#006765]" id="dni-cuil" placeholder="Número sin puntos ni espacios" required="" type="text">
+</div>
+</div>
+<!-- 3. Shipping Address Section -->
+<div class="bg-surface-container-lowest rounded-xl p-4 shadow-sm flex flex-col gap-3">
+<div class="flex items-center gap-2">
+<span class="material-symbols-outlined text-primary text-[22px]">home_pin</span>
+<h2 class="font-headline-sm text-headline-sm text-on-surface">3. Domicilio de Entrega</h2>
+</div>
+<div class="grid grid-cols-3 gap-2">
+<div class="col-span-2 flex flex-col gap-1">
+<label class="font-label-sm text-label-sm text-on-surface font-medium" for="street">Calle *</label>
+<input class="w-full h-12 px-3.5 rounded-lg bg-surface-container-low text-on-surface font-body-md text-body-md placeholder:text-on-surface-variant/60 focus:bg-surface-container-lowest focus:outline-none focus:shadow-[0_0_0_2px_#006765]" id="street" placeholder="Av. Corrientes" required="" type="text">
+</div>
+<div class="flex flex-col gap-1">
+<label class="font-label-sm text-label-sm text-on-surface font-medium" for="street-number">Número *</label>
+<input class="w-full h-12 px-3.5 rounded-lg bg-surface-container-low text-on-surface font-body-md text-body-md placeholder:text-on-surface-variant/60 focus:bg-surface-container-lowest focus:outline-none focus:shadow-[0_0_0_2px_#006765]" id="street-number" placeholder="1430" required="" type="text">
+</div>
+</div>
+<div class="grid grid-cols-2 gap-2">
+<div class="flex flex-col gap-1">
+<label class="font-label-sm text-label-sm text-on-surface font-medium" for="floor-dept">Piso / Dpto (opcional)</label>
+<input class="w-full h-12 px-3.5 rounded-lg bg-surface-container-low text-on-surface font-body-md text-body-md placeholder:text-on-surface-variant/60 focus:bg-surface-container-lowest focus:outline-none focus:shadow-[0_0_0_2px_#006765]" id="floor-dept" placeholder="4° B" type="text">
+</div>
+<div class="flex flex-col gap-1">
+<label class="font-label-sm text-label-sm text-on-surface font-medium" for="postal-code">Código Postal *</label>
+<input class="w-full h-12 px-3.5 rounded-lg bg-surface-container-low text-on-surface font-body-md text-body-md placeholder:text-on-surface-variant/60 focus:bg-surface-container-lowest focus:outline-none focus:shadow-[0_0_0_2px_#006765]" id="postal-code" placeholder="C1043" required="" type="text">
+</div>
+</div>
+<div class="flex flex-col gap-1">
+<label class="font-label-sm text-label-sm text-on-surface font-medium" for="city">Ciudad / Localidad *</label>
+<input class="w-full h-12 px-3.5 rounded-lg bg-surface-container-low text-on-surface font-body-md text-body-md placeholder:text-on-surface-variant/60 focus:bg-surface-container-lowest focus:outline-none focus:shadow-[0_0_0_2px_#006765]" id="city" placeholder="Ej. Ciudad Autónoma de Buenos Aires" required="" type="text">
+</div>
+<div class="flex flex-col gap-1">
+<label class="font-label-sm text-label-sm text-on-surface font-medium" for="province">Provincia *</label>
+<div class="relative">
+<select class="w-full h-12 px-3.5 pr-10 rounded-lg bg-surface-container-low text-on-surface font-body-md text-body-md focus:bg-surface-container-lowest focus:outline-none focus:shadow-[0_0_0_2px_#006765] appearance-none" id="province" required="">
+<option disabled="" selected="" value="">Selecciona tu provincia</option>
+<option value="CABA">Ciudad Autónoma de Buenos Aires</option>
+<option value="Buenos Aires">Buenos Aires</option>
+<option value="Catamarca">Catamarca</option>
+<option value="Chaco">Chaco</option>
+<option value="Chubut">Chubut</option>
+<option value="Córdoba">Córdoba</option>
+<option value="Corrientes">Corrientes</option>
+<option value="Entre Ríos">Entre Ríos</option>
+<option value="Formosa">Formosa</option>
+<option value="Jujuy">Jujuy</option>
+<option value="La Pampa">La Pampa</option>
+<option value="La Rioja">La Rioja</option>
+<option value="Mendoza">Mendoza</option>
+<option value="Misiones">Misiones</option>
+<option value="Neuquén">Neuquén</option>
+<option value="Río Negro">Río Negro</option>
+<option value="Salta">Salta</option>
+<option value="San Juan">San Juan</option>
+<option value="San Luis">San Luis</option>
+<option value="Santa Cruz">Santa Cruz</option>
+<option value="Santa Fe">Santa Fe</option>
+<option value="Santiago del Estero">Santiago del Estero</option>
+<option value="Tierra del Fuego">Tierra del Fuego</option>
+<option value="Tucumán">Tucumán</option>
+</select>
+<span class="material-symbols-outlined pointer-events-none absolute right-3 top-3 text-on-surface-variant text-[22px]">expand_more</span>
+</div>
+</div>
+<div class="flex flex-col gap-1">
+<label class="font-label-sm text-label-sm text-on-surface font-medium" for="delivery-notes">Notas adicionales para el repartidor (opcional)</label>
+<textarea class="w-full p-3 rounded-lg bg-surface-container-low text-on-surface font-body-md text-body-md placeholder:text-on-surface-variant/60 focus:bg-surface-container-lowest focus:outline-none focus:shadow-[0_0_0_2px_#006765] resize-none" id="delivery-notes" placeholder="Ej. Tocar timbre 'Morales', dejar en recepción o llamar al llegar." rows="2"></textarea>
+</div>
+</div>
+<!-- 4. Shipping Methods -->
+<div class="bg-surface-container-lowest rounded-xl p-4 shadow-sm flex flex-col gap-3">
+<div class="flex items-center gap-2">
+<span class="material-symbols-outlined text-primary text-[22px]">local_shipping</span>
+<h2 class="font-headline-sm text-headline-sm text-on-surface">4. Opciones de Envío</h2>
+</div>
+<div class="flex flex-col gap-2.5">
+<!-- Option 1: Correo Argentino / Andreani a domicilio -->
+<label class="relative flex items-center justify-between p-3.5 rounded-xl bg-surface-container-low cursor-pointer transition-all has-[:checked]:bg-secondary-container/25 has-[:checked]:shadow-[0_0_0_2px_#006765]">
+<div class="flex items-center gap-3">
+<input checked="" class="w-4 h-4 accent-primary" name="shipping-method" type="radio" value="standard">
+<div class="flex flex-col">
+<span class="font-label-lg text-label-lg text-on-surface">Envío Express a Domicilio</span>
+<span class="font-body-sm text-body-sm text-on-surface-variant">Llega de 2 a 4 días hábiles (Andreani / Correo)</span>
+</div>
+</div>
+<span class="font-label-lg text-label-lg text-primary font-bold">$3.200</span>
+</label>
+<!-- Option 2: Retiro en Sucursal Andreani -->
+<label class="relative flex items-center justify-between p-3.5 rounded-xl bg-surface-container-low cursor-pointer transition-all has-[:checked]:bg-secondary-container/25 has-[:checked]:shadow-[0_0_0_2px_#006765]">
+<div class="flex items-center gap-3">
+<input class="w-4 h-4 accent-primary" name="shipping-method" type="radio" value="sucursal">
+<div class="flex flex-col">
+<span class="font-label-lg text-label-lg text-on-surface">Retiro en Sucursal Andreani</span>
+<span class="font-body-sm text-body-sm text-on-surface-variant">Punto más cercano a tu código postal</span>
+</div>
+</div>
+<span class="font-label-lg text-label-lg text-primary font-bold">$2.100</span>
+</label>
+<!-- Option 3: Moto Flash CABA/GBA -->
+<label class="relative flex items-center justify-between p-3.5 rounded-xl bg-surface-container-low cursor-pointer transition-all has-[:checked]:bg-secondary-container/25 has-[:checked]:shadow-[0_0_0_2px_#006765]">
+<div class="flex items-center gap-3">
+<input class="w-4 h-4 accent-primary" name="shipping-method" type="radio" value="express">
+<div class="flex flex-col">
+<span class="font-label-lg text-label-lg text-on-surface flex items-center gap-1">
+                Moto Mensajería en el Día
+                <span class="bg-primary text-on-primary text-[10px] font-bold px-1.5 py-0.5 rounded-full">FLASH</span>
+</span>
+<span class="font-body-sm text-body-sm text-on-surface-variant">CABA y primer cordón GBA (comprando antes de las 13hs)</span>
+</div>
+</div>
+<span class="font-label-lg text-label-lg text-primary font-bold">$4.500</span>
+</label>
+</div>
+</div>
+<!-- 5. Payment Methods Selection -->
+<div class="bg-surface-container-lowest rounded-xl p-4 shadow-sm flex flex-col gap-3">
+<div class="flex items-center gap-2">
+<span class="material-symbols-outlined text-primary text-[22px]">payments</span>
+<h2 class="font-headline-sm text-headline-sm text-on-surface">5. Método de Pago</h2>
+</div>
+<div class="flex flex-col gap-3">
+<!-- Mercado Pago Option (Highlighted) -->
+<label class="relative flex flex-col p-4 rounded-xl bg-surface-container-low cursor-pointer transition-all has-[:checked]:bg-secondary-container/20 has-[:checked]:shadow-[0_0_0_2px_#006765]">
+<div class="flex items-start justify-between">
+<div class="flex items-center gap-3">
+<input checked="" class="w-4 h-4 accent-primary mt-0.5" id="pay-mp" name="payment-method" type="radio" value="mercadopago">
+<div class="flex flex-col">
+<div class="flex items-center gap-2">
+<span class="font-label-lg text-label-lg text-on-surface font-bold">Mercado Pago</span>
+<span class="bg-secondary text-on-secondary px-2 py-0.5 rounded-full font-label-sm text-label-sm font-bold">Recomendado</span>
+</div>
+<p class="font-body-sm text-body-sm text-on-surface-variant mt-0.5">Checkout Pro: Tarjetas en hasta 6 cuotas fijas, débito o dinero en cuenta.</p>
+</div>
+</div>
+</div>
+<div class="flex items-center gap-2.5 mt-3 pl-7">
+<span class="px-2 py-1 bg-surface-container rounded text-[11px] font-bold text-on-surface">VISA</span>
+<span class="px-2 py-1 bg-surface-container rounded text-[11px] font-bold text-on-surface">Mastercard</span>
+<span class="px-2 py-1 bg-surface-container rounded text-[11px] font-bold text-on-surface">AMEX</span>
+<span class="px-2 py-1 bg-surface-container rounded text-[11px] font-bold text-on-surface">Débito</span>
+<span class="px-2 py-1 bg-surface-container rounded text-[11px] font-bold text-on-surface">Dinero en MP</span>
+</div>
+</label>
+<!-- Bank Transfer Option (15% OFF) -->
+<label class="relative flex flex-col p-4 rounded-xl bg-surface-container-low cursor-pointer transition-all has-[:checked]:bg-secondary-container/20 has-[:checked]:shadow-[0_0_0_2px_#006765]">
+<div class="flex items-start justify-between">
+<div class="flex items-center gap-3">
+<input class="w-4 h-4 accent-primary mt-0.5" id="pay-transfer" name="payment-method" type="radio" value="transfer">
+<div class="flex flex-col">
+<div class="flex items-center gap-2">
+<span class="font-label-lg text-label-lg text-on-surface font-bold">Transferencia Bancaria</span>
+<span class="bg-primary text-on-primary px-2 py-0.5 rounded-full font-label-sm text-label-sm font-bold">15% OFF</span>
+</div>
+<p class="font-body-sm text-body-sm text-on-surface-variant mt-0.5">Recibirás los datos bancarios y el CBU al completar la orden.</p>
+</div>
+</div>
+</div>
+</label>
+<!-- Cash on Pickup Option -->
+<label class="relative flex flex-col p-4 rounded-xl bg-surface-container-low cursor-pointer transition-all has-[:checked]:bg-secondary-container/20 has-[:checked]:shadow-[0_0_0_2px_#006765]">
+<div class="flex items-start justify-between">
+<div class="flex items-center gap-3">
+<input class="w-4 h-4 accent-primary mt-0.5" id="pay-cash" name="payment-method" type="radio" value="cash">
+<div class="flex flex-col">
+<span class="font-label-lg text-label-lg text-on-surface font-bold">Efectivo al Retirar</span>
+<p class="font-body-sm text-body-sm text-on-surface-variant mt-0.5">Abonás en nuestro showroom de Palermo Soho al retirar tu pedido.</p>
+</div>
+</div>
+</div>
+</label>
+</div>
+</div>
+<!-- Security & Trust Badges Banner -->
+<div class="flex items-center justify-center gap-4 py-2 px-3 bg-surface-container-low rounded-xl">
+<div class="flex items-center gap-1.5 text-on-surface-variant">
+<span class="material-symbols-outlined text-primary text-[18px]">lock</span>
+<span class="font-label-sm text-label-sm">Encriptación SSL 256-bit</span>
+</div>
+<div class="flex items-center gap-1.5 text-on-surface-variant">
+<span class="material-symbols-outlined text-primary text-[18px]">verified_user</span>
+<span class="font-label-sm text-label-sm">Compra Protegida Fan del Mate</span>
+</div>
+</div>
+<!-- Final Submission Action Button -->
+<div class="flex flex-col gap-2 pt-2">
+<button class="w-full h-14 rounded-xl bg-primary hover:bg-primary-container text-on-primary font-label-lg text-label-lg font-bold flex items-center justify-center gap-2 shadow-md hover:shadow-lg transition-all active:scale-[0.99]" id="submit-checkout-btn" type="submit">
+<span class="material-symbols-outlined text-[20px]">lock</span>
+<span id="btn-submit-label">Continuar a Mercado Pago para abonar</span>
+</button>
+<p class="text-center font-body-sm text-body-sm text-on-surface-variant">
+        Al hacer clic autorizas el procesamiento de tu orden bajo nuestros términos y condiciones de compra artesanal.
+      </p>
+</div>
+</form>
+<!-- Sticky Quick WhatsApp Help Floating Button -->
+<aside class="fixed bottom-5 right-4 z-40">
+<a class="flex items-center gap-2 px-3.5 py-2.5 rounded-full bg-[#25D366] text-white shadow-lg hover:shadow-xl hover:scale-105 transition-all focus:outline-none" href="https://wa.me/5491112345678?text=Hola%20Fan%20del%20Mate!%20Necesito%20ayuda%20con%20mi%20compra%20en%20el%20checkout" rel="noopener noreferrer" target="_blank">
+<span class="material-symbols-outlined text-[24px]">support_agent</span>
+<span class="font-label-md text-label-md font-bold pr-1">¿Dudas? Chateá</span>
+</a>
+</aside>
+</div>
+<!-- Interactive UI Logic -->
+<script>
+  (function() {
+    const summaryBtn = document.getElementById('toggle-summary-btn');
+    const summaryDrawer = document.getElementById('summary-drawer');
+    const chevron = document.getElementById('summary-chevron');
+    const shippingRadios = document.querySelectorAll('input[name="shipping-method"]');
+    const paymentRadios = document.querySelectorAll('input[name="payment-method"]');
+    const shippingCostElem = document.getElementById('summary-shipping-cost');
+    const grandTotalElem = document.getElementById('summary-grand-total');
+    const previewTotalElem = document.getElementById('summary-total-preview');
+    const discountRow = document.getElementById('discount-row');
+    const submitBtnLabel = document.getElementById('btn-submit-label');
+
+    const baseProductTotal = 74850;
+    const shippingCosts = {
+      standard: 3200,
+      sucursal: 2100,
+      express: 4500
+    };
+
+    // Toggle Summary Drawer
+    if (summaryBtn && summaryDrawer && chevron) {
+      summaryBtn.addEventListener('click', () => {
+        const isHidden = summaryDrawer.classList.contains('hidden');
+        if (isHidden) {
+          summaryDrawer.classList.remove('hidden');
+          summaryDrawer.classList.add('flex');
+          chevron.style.transform = 'rotate(180deg)';
+        } else {
+          summaryDrawer.classList.add('hidden');
+          summaryDrawer.classList.remove('flex');
+          chevron.style.transform = 'rotate(0deg)';
+        }
+      });
+    }
+
+    // Dynamic Price Calculation
+    function updateTotals() {
+      let selectedShipping = 'standard';
+      shippingRadios.forEach(radio => {
+        if (radio.checked) selectedShipping = radio.value;
+      });
+
+      const currentShippingCost = shippingCosts[selectedShipping] || 0;
+      if (shippingCostElem) {
+        shippingCostElem.textContent = '$' + currentShippingCost.toLocaleString('es-AR');
+      }
+
+      let selectedPayment = 'mercadopago';
+      paymentRadios.forEach(radio => {
+        if (radio.checked) selectedPayment = radio.value;
+      });
+
+      let discount = 0;
+      if (selectedPayment === 'transfer') {
+        discount = Math.round(baseProductTotal * 0.15);
+        if (discountRow) discountRow.classList.remove('hidden');
+        if (discountRow) discountRow.classList.add('flex');
+      } else {
+        if (discountRow) {
+          discountRow.classList.add('hidden');
+          discountRow.classList.remove('flex');
+        }
+      }
+
+      const grandTotal = baseProductTotal + currentShippingCost - discount;
+      const formattedTotal = '$' + grandTotal.toLocaleString('es-AR');
+
+      if (grandTotalElem) grandTotalElem.textContent = formattedTotal;
+      if (previewTotalElem) previewTotalElem.textContent = formattedTotal;
+
+      // Update CTA Label based on selected payment
+      if (submitBtnLabel) {
+        if (selectedPayment === 'mercadopago') {
+          submitBtnLabel.textContent = 'Continuar a Mercado Pago para abonar';
+        } else if (selectedPayment === 'transfer') {
+          submitBtnLabel.textContent = 'Confirmar Pedido y Ver Datos de CBU';
+        } else {
+          submitBtnLabel.textContent = 'Confirmar Pedido y Retirar en Showroom';
+        }
+      }
+    }
+
+    shippingRadios.forEach(radio => radio.addEventListener('change', updateTotals));
+    paymentRadios.forEach(radio => radio.addEventListener('change', updateTotals));
+    updateTotals();
+  })();
+</script></main></body></html>
