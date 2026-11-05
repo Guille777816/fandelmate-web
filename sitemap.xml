@@ -1,22 +1,29 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
-  <!-- Página principal -->
+  <!-- Portada principal -->
   <url>
     <loc>https://www.fandelmate.com.ar/</loc>
     <changefreq>daily</changefreq>
     <priority>1.0</priority>
   </url>
 
-  <!-- Categorías de productos -->
+  <!-- Catalogo completo -->
+  <url>
+    <loc>https://www.fandelmate.com.ar/productos</loc>
+    <changefreq>daily</changefreq>
+    <priority>0.9</priority>
+  </url>
+
+  <!-- Categorias de productos -->
   <url>
     <loc>https://www.fandelmate.com.ar/categoria/mates</loc>
     <changefreq>weekly</changefreq>
-    <priority>0.9</priority>
+    <priority>0.8</priority>
   </url>
   <url>
     <loc>https://www.fandelmate.com.ar/categoria/termos</loc>
     <changefreq>weekly</changefreq>
-    <priority>0.9</priority>
+    <priority>0.8</priority>
   </url>
   <url>
     <loc>https://www.fandelmate.com.ar/categoria/bombillas</loc>
@@ -29,12 +36,22 @@
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://www.fandelmate.com.ar/categoria/bolsos-materos</loc>
+    <loc>https://www.fandelmate.com.ar/categoria/autocebantes</loc>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://www.fandelmate.com.ar/categoria/yerberas</loc>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
     <loc>https://www.fandelmate.com.ar/categoria/canastas-materas</loc>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://www.fandelmate.com.ar/categoria/bolsos-materos</loc>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url>
@@ -49,99 +66,44 @@
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://www.fandelmate.com.ar/categoria/yerberas</loc>
-    <changefreq>weekly</changefreq>
-    <priority>0.8</priority>
-  </url>
-  <url>
-    <loc>https://www.fandelmate.com.ar/categoria/autocebantes</loc>
-    <changefreq>weekly</changefreq>
-    <priority>0.8</priority>
-  </url>
-  <url>
     <loc>https://www.fandelmate.com.ar/categoria/accesorios</loc>
     <changefreq>weekly</changefreq>
-    <priority>0.7</priority>
+    <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://www.fandelmate.com.ar/productos</loc>
-    <changefreq>daily</changefreq>
-    <priority>0.9</priority>
+    <loc>https://www.fandelmate.com.ar/categoria/atencion-venta-mayorista</loc>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
   </url>
 
-  <!-- Productos individuales (SEO Slugs) -->
+  <!-- Productos individuales (96 productos de catalogo) -->
   <url>
-    <loc>https://www.fandelmate.com.ar/producto/mate-de-algarrobo</loc>
-    <changefreq>daily</changefreq>
-    <priority>1.0</priority>
-  </url>
-  <url>
-    <loc>https://www.fandelmate.com.ar/producto/mate-galleta</loc>
+    <loc>https://www.fandelmate.com.ar/producto/mate-palo-santo-c-virola</loc>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://www.fandelmate.com.ar/producto/mate-calabaza-caballo</loc>
+    <loc>https://www.fandelmate.com.ar/producto/vaso-termico-de-acero-c-tapa-400-ml</loc>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://www.fandelmate.com.ar/producto/mate-torpedo-uruguayo</loc>
+    <loc>https://www.fandelmate.com.ar/producto/vaso-termico-con-manija-400-ml</loc>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://www.fandelmate.com.ar/producto/mate-imperial-calabaza</loc>
+    <loc>https://www.fandelmate.com.ar/producto/vaso-termico-rolan-500-ml</loc>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://www.fandelmate.com.ar/producto/mate-camionero-madera-y-acero</loc>
+    <loc>https://www.fandelmate.com.ar/producto/vaso-termico-acero-400-ml</loc>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://www.fandelmate.com.ar/producto/mate-de-nandubay-huevito</loc>
-    <changefreq>weekly</changefreq>
-    <priority>0.8</priority>
-  </url>
-  <url>
-    <loc>https://www.fandelmate.com.ar/producto/mate-calabaza-3-copas</loc>
-    <changefreq>weekly</changefreq>
-    <priority>0.8</priority>
-  </url>
-  <url>
-    <loc>https://www.fandelmate.com.ar/producto/mate-bocon-vegano</loc>
-    <changefreq>weekly</changefreq>
-    <priority>0.8</priority>
-  </url>
-  <url>
-    <loc>https://www.fandelmate.com.ar/producto/mate-autocebante</loc>
-    <changefreq>weekly</changefreq>
-    <priority>0.8</priority>
-  </url>
-  <url>
-    <loc>https://www.fandelmate.com.ar/producto/termo-media-manija-1-litro</loc>
-    <changefreq>weekly</changefreq>
-    <priority>0.8</priority>
-  </url>
-  <url>
-    <loc>https://www.fandelmate.com.ar/producto/termo-stanley-mate-system-1-2-lts</loc>
-    <changefreq>weekly</changefreq>
-    <priority>0.8</priority>
-  </url>
-  <url>
-    <loc>https://www.fandelmate.com.ar/producto/termo-stanley-mate-system-800-ml</loc>
-    <changefreq>weekly</changefreq>
-    <priority>0.8</priority>
-  </url>
-  <url>
-    <loc>https://www.fandelmate.com.ar/producto/botella-termica-stanley-flip-straw-tumbler-887ml</loc>
-    <changefreq>weekly</changefreq>
-    <priority>0.8</priority>
-  </url>
-  <url>
-    <loc>https://www.fandelmate.com.ar/producto/vaso-quercher-1200-ml</loc>
+    <loc>https://www.fandelmate.com.ar/producto/termo-stanley-1400-ml-rose-quartz</loc>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url>
@@ -151,77 +113,12 @@
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://www.fandelmate.com.ar/producto/bombilla-alpaca-pala</loc>
+    <loc>https://www.fandelmate.com.ar/producto/mate-bocon-vegano</loc>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://www.fandelmate.com.ar/producto/bombilla-alpaca-lisa</loc>
-    <changefreq>weekly</changefreq>
-    <priority>0.8</priority>
-  </url>
-  <url>
-    <loc>https://www.fandelmate.com.ar/producto/bombilla-alpaca-torneada-recta</loc>
-    <changefreq>weekly</changefreq>
-    <priority>0.8</priority>
-  </url>
-  <url>
-    <loc>https://www.fandelmate.com.ar/producto/bombillon-alpaca-c-detalles-en-bronce</loc>
-    <changefreq>weekly</changefreq>
-    <priority>0.8</priority>
-  </url>
-  <url>
-    <loc>https://www.fandelmate.com.ar/producto/bombillon-alpaca-pala-con-fina-virola-bronce</loc>
-    <changefreq>weekly</changefreq>
-    <priority>0.8</priority>
-  </url>
-  <url>
-    <loc>https://www.fandelmate.com.ar/producto/bombillon-alpaca-detalle-doble-bola</loc>
-    <changefreq>weekly</changefreq>
-    <priority>0.8</priority>
-  </url>
-  <url>
-    <loc>https://www.fandelmate.com.ar/producto/bombilla-acero-tipo-taumer</loc>
-    <changefreq>weekly</changefreq>
-    <priority>0.8</priority>
-  </url>
-  <url>
-    <loc>https://www.fandelmate.com.ar/producto/bombilla-acero-pala</loc>
-    <changefreq>weekly</changefreq>
-    <priority>0.8</priority>
-  </url>
-  <url>
-    <loc>https://www.fandelmate.com.ar/producto/bombilla-acero-pico-de-loro-lisa</loc>
-    <changefreq>weekly</changefreq>
-    <priority>0.8</priority>
-  </url>
-  <url>
-    <loc>https://www.fandelmate.com.ar/producto/bombilla-acero-inoxidable-lisa-corta</loc>
-    <changefreq>weekly</changefreq>
-    <priority>0.8</priority>
-  </url>
-  <url>
-    <loc>https://www.fandelmate.com.ar/producto/bombilla-mediana-acero-c-bronce</loc>
-    <changefreq>weekly</changefreq>
-    <priority>0.8</priority>
-  </url>
-  <url>
-    <loc>https://www.fandelmate.com.ar/producto/bombilla-recta-filtro-bronce</loc>
-    <changefreq>weekly</changefreq>
-    <priority>0.8</priority>
-  </url>
-  <url>
-    <loc>https://www.fandelmate.com.ar/producto/bombilla-acero-microfono</loc>
-    <changefreq>weekly</changefreq>
-    <priority>0.8</priority>
-  </url>
-  <url>
-    <loc>https://www.fandelmate.com.ar/producto/bimbilla-pala-recta-mediana</loc>
-    <changefreq>weekly</changefreq>
-    <priority>0.8</priority>
-  </url>
-  <url>
-    <loc>https://www.fandelmate.com.ar/producto/yerba-sara-coco-500-g</loc>
+    <loc>https://www.fandelmate.com.ar/producto/mate-de-nandubay-huevito</loc>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url>
@@ -236,7 +133,37 @@
     <priority>0.8</priority>
   </url>
   <url>
+    <loc>https://www.fandelmate.com.ar/producto/botella-termica-600-ml</loc>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://www.fandelmate.com.ar/producto/yerbera-de-cuero-vacuno-con-pico-vertedor</loc>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://www.fandelmate.com.ar/producto/bombilla-alpaca-lisa</loc>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
     <loc>https://www.fandelmate.com.ar/producto/yerba-organica-rancho-viejo-500-g</loc>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://www.fandelmate.com.ar/producto/despolvillador</loc>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://www.fandelmate.com.ar/producto/termo-lumilagro-negro-750-ml</loc>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://www.fandelmate.com.ar/producto/bombilla-acero-pala</loc>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url>
@@ -256,17 +183,87 @@
     <priority>0.8</priority>
   </url>
   <url>
+    <loc>https://www.fandelmate.com.ar/producto/bombilla-acero-microfono</loc>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
     <loc>https://www.fandelmate.com.ar/producto/yerba-mate-del-cebador-clasica-500-g</loc>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://www.fandelmate.com.ar/producto/yerba-sara-tradicional-1-kg</loc>
+    <loc>https://www.fandelmate.com.ar/producto/canasta-matera-cuero-con-pelaje-natural</loc>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://www.fandelmate.com.ar/producto/yerba-playadito-500-g</loc>
+    <loc>https://www.fandelmate.com.ar/producto/tapabombi</loc>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://www.fandelmate.com.ar/producto/bombillon-alpaca-pala-con-fina-virola-bronce</loc>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://www.fandelmate.com.ar/producto/bolso-matero-morral-skora-verde-agua</loc>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://www.fandelmate.com.ar/producto/mate-calabaza-3-copas</loc>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://www.fandelmate.com.ar/producto/termo-stanley-1400-ml-black-2-0</loc>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://www.fandelmate.com.ar/producto/bolso-matero-morral-skora-beige</loc>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://www.fandelmate.com.ar/producto/vaso-quercher-1200-ml</loc>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://www.fandelmate.com.ar/producto/bombilla-acero-pico-de-loro-lisa</loc>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://www.fandelmate.com.ar/producto/bombilla-mediana-acero-c-bronce</loc>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://www.fandelmate.com.ar/producto/bombillon-alpaca-c-detalles-en-bronce</loc>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://www.fandelmate.com.ar/producto/bombilla-acero-inoxidable-lisa-corta</loc>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://www.fandelmate.com.ar/producto/bombilla-alpaca-pala</loc>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://www.fandelmate.com.ar/producto/bombillon-alpaca-detalle-doble-bola</loc>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://www.fandelmate.com.ar/producto/mate-camionero-madera-y-acero</loc>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url>
@@ -276,12 +273,287 @@
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://www.fandelmate.com.ar/producto/kit-chaulata-liso</loc>
+    <loc>https://www.fandelmate.com.ar/producto/yerbera-de-tela-anti-manchas</loc>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://www.fandelmate.com.ar/producto/mate-enlozado-2-asas-negro-c-bombilla-ideal</loc>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://www.fandelmate.com.ar/producto/mate-de-nandubay-tronco</loc>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://www.fandelmate.com.ar/producto/termo-lumilagro-750-ml</loc>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://www.fandelmate.com.ar/producto/bombilla-alpaca-torneada-recta</loc>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://www.fandelmate.com.ar/producto/mate-imperial-vegano-grande</loc>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://www.fandelmate.com.ar/producto/botella-waterdog-600-ml</loc>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://www.fandelmate.com.ar/producto/termo-mate-acero-750-ml</loc>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://www.fandelmate.com.ar/producto/botella-termica-fdm-800-ml</loc>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://www.fandelmate.com.ar/producto/yerbera-lata-250-gs-negra-mate</loc>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://www.fandelmate.com.ar/producto/bolso-matero-eco-cuero-simple-fdm</loc>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://www.fandelmate.com.ar/producto/mate-de-algarrobo</loc>
+    <changefreq>weekly</changefreq>
+    <priority>1.0</priority>
+  </url>
+  <url>
+    <loc>https://www.fandelmate.com.ar/producto/mate-torpedo-uruguayo</loc>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://www.fandelmate.com.ar/producto/botella-termica-fdm-600-ml</loc>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://www.fandelmate.com.ar/producto/yerbera-de-cuero-vacuno-c-porta-bombilla</loc>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://www.fandelmate.com.ar/producto/botella-asobu-animalitos-500-ml</loc>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://www.fandelmate.com.ar/producto/bombilla-acero-tipo-taumer</loc>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://www.fandelmate.com.ar/producto/almohadon-matero</loc>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://www.fandelmate.com.ar/producto/yerba-sara-tradicional-1-kg</loc>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://www.fandelmate.com.ar/producto/yerbera-lata-500-gs</loc>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://www.fandelmate.com.ar/producto/cartera-matera-con-2-manijas-y-correa-de-cuero-fdm</loc>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://www.fandelmate.com.ar/producto/termo-media-manija-1-litro</loc>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://www.fandelmate.com.ar/producto/luz-led-bombilla</loc>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://www.fandelmate.com.ar/producto/canasta-matera-cuero-negro</loc>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://www.fandelmate.com.ar/producto/mate-camionero</loc>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://www.fandelmate.com.ar/producto/yerbera-lata-250-gs</loc>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://www.fandelmate.com.ar/producto/yerbera-lata-250-gs-mijo</loc>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://www.fandelmate.com.ar/producto/bombilla-recta-filtro-bronce</loc>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://www.fandelmate.com.ar/producto/yerbera-de-cordura-con-pico-vertedor</loc>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://www.fandelmate.com.ar/producto/tapamate</loc>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://www.fandelmate.com.ar/producto/mate-enlozado-2-asas-con-limones-c-bombilla-ideal</loc>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://www.fandelmate.com.ar/producto/termo-stanley-mate-system-1-2-lts</loc>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
     <loc>https://www.fandelmate.com.ar/producto/lata-yerbera-baldo-500-g</loc>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://www.fandelmate.com.ar/producto/tapa-bolsa-cierra-bolsa</loc>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://www.fandelmate.com.ar/producto/mate-imperial-calabaza</loc>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://www.fandelmate.com.ar/producto/kit-chaulata-liso</loc>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://www.fandelmate.com.ar/producto/botella-termica-stanley-flip-straw-tumbler-887ml</loc>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://www.fandelmate.com.ar/producto/yerba-playadito-500-g</loc>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://www.fandelmate.com.ar/producto/bimbilla-pala-recta-mediana</loc>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://www.fandelmate.com.ar/producto/mate-galleta</loc>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://www.fandelmate.com.ar/producto/canasta-matera-cuero-oval</loc>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://www.fandelmate.com.ar/producto/canasta-matera-ecocuero</loc>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://www.fandelmate.com.ar/producto/mate-enlozado-negro-con-puntos-blancos-2-asas-c-bombilla-ideal</loc>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://www.fandelmate.com.ar/producto/mate-autocebante-acero-inoxidable-500-ml</loc>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://www.fandelmate.com.ar/producto/mate-enlozado-marron-con-puntos-blancos-1-asa-c-bombilla-ideal</loc>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://www.fandelmate.com.ar/producto/cosito-del-mate</loc>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://www.fandelmate.com.ar/producto/mate-imperial-vegano-pequeno</loc>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://www.fandelmate.com.ar/producto/termo-stanley-clasico-manija-plegable-1-lt</loc>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://www.fandelmate.com.ar/producto/termo-stanley-mate-system-800-ml</loc>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://www.fandelmate.com.ar/producto/yerba-sara-coco-500-g</loc>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://www.fandelmate.com.ar/producto/termo-pampa-rosa-750-ml</loc>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://www.fandelmate.com.ar/producto/mate-acero-inoxidable-con-2-asas-c-bombilla-ideal</loc>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://www.fandelmate.com.ar/producto/bolso-morral-semi-rigido-fdm</loc>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://www.fandelmate.com.ar/producto/mate-calabaza-caballo</loc>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://www.fandelmate.com.ar/producto/mate-enlozado-1-asa-con-limones-c-bombilla-ideal</loc>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://www.fandelmate.com.ar/producto/yerbera-lata-playadito-500-gs</loc>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://www.fandelmate.com.ar/producto/termo-mate-acero-750-ml-nuevos</loc>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url>
