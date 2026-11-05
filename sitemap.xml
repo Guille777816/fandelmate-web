@@ -71,6 +71,11 @@
 
   <!-- Productos individuales (SEO Slugs) -->
   <url>
+    <loc>https://www.fandelmate.com.ar/producto/mate-de-algarrobo</loc>
+    <changefreq>daily</changefreq>
+    <priority>1.0</priority>
+  </url>
+  <url>
     <loc>https://www.fandelmate.com.ar/producto/mate-galleta</loc>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
